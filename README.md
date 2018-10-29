@@ -29,6 +29,3 @@ hexo clean && hexo g && hexo d
 ```
 hexo new page "about"
 ```
-
-http://gentlener.coding.me/Blog/# bolg-code
-# bolg-code
