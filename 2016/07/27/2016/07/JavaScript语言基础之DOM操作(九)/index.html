@@ -1,0 +1,122 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta name="generator" content="Hexo 3.8.0"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta content="xyR3o2cKfa" name="baidu-site-verification"><meta name="description" content="这是jack的博客的第一次尝试"><title>JavaScript语言基础之DOM操作(九) | 勿忘初心</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/8.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">JavaScript语言基础之DOM操作(九)</h1><a id="logo" href="/.">勿忘初心</a><p class="description">既然已匆匆,不如早怀念</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/JackSaying/"><i class="fa fa-tag"> 点滴</i></a><a href="/movies/"><i class="fa fa-film"> 电影</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">JavaScript语言基础之DOM操作(九)</h1><div class="post-meta">Jul 27, 2016<span> | </span><span class="category"><a href="/categories/Front-End/">Front-End</a></span></div><a class="disqus-comment-count" href="/2016/07/27/2016/07/JavaScript语言基础之DOM操作(九)/#vcomment"><span class="valine-comment-count" data-xid="/2016/07/27/2016/07/JavaScript语言基础之DOM操作(九)/"></span><span> 条评论</span></a><div class="post-content"><p><strong>DOM 操作</strong><br><a id="more"></a></p>
+<ul>
+<li>图片切换的相册效果</li>
+<li>tab切换效果</li>
+<li>表单验证</li>
+<li><p>特效就是DOM操作的具体应用 DOM操作就是用js来写HTML代码</p>
+</li>
+<li><p>节点/元素/标签：</p>
+<ul>
+<li><p>三种常用的节点类型：</p>
+<ul>
+<li>元素节点</li>
+<li>属性节点</li>
+<li>文本节点</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>操作DOM对象：</strong></p>
+<ul>
+<li>修改：–找到这个节点</li>
+<li>删除：–找到这个节点</li>
+<li>添加：–先造出一个节点 然后插入 插入到哪里？找节点来定位</li>
+</ul>
+</li>
+<li><p>这些都离不开节点的查找</p>
+</li>
+<li><p><strong>节点的查找：</strong>（最重要）</p>
+<ul>
+<li>1、<code>document.getElementById</code>—根据<code>id</code>查找节点 [返回的是节点本身]</li>
+<li>2、<code>document.getElementsByTagName</code>–根据标签名字来查找[返回的是数组]document.getElementsByTagName[i]</li>
+<li>3、<code>document.getElemenstByName</code>–根据<code>name</code>属性来查找节点（一般用在表单中）[返回的是数组]<code>document.getElemenstByName[i]`</code></li>
+</ul>
+</li>
+<li><p><strong>注意：</strong>早期浏览器都认为name只出现在表单中 </p>
+</li>
+<li><p>因此<code>document.getElemenstByName</code>只对表单中的元素发挥作用 后来部分浏览器把<code>Name</code>属性扩展到一般的元素 如：<code>div</code> 但是IE浏览器还是只能对表单使用<code>byName</code>因此处于兼容性 我们只能对表单使用<code>byName</code></p>
+</li>
+<li><p><strong><code>DOM</code>中查找节点的思路：</strong>（由大到小 个别情况 由子到父）</p>
+<ul>
+<li><p>由大到小：（通过下面的来定位）</p>
+<ul>
+<li>1、<code>document.getElementById</code>—根据id查找节点 [返回的是节点本身]</li>
+<li>2、<code>document.getElementsByTagName</code>–根据标签名字来查找[返回的是数组]document.getElementsByTagName[i]</li>
+<li>3、<code>document.getElemenstByName</code>–根据<code>name</code>属性来查找节点（一般用在表单中）[返回的是数组]<code>document.getElemenstByName[i]</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>如果还没有查到自己想要的节点，还可以继续根据上面已经找到的节点再次定位来查找</p>
+</li>
+<li><p><strong>怎么继续定位？</strong></p>
+<ul>
+<li>答案：childNodes/child</li>
+</ul>
+</li>
+<li><p><strong>继续查找：</strong></p>
+</li>
+<li><p>1、查找子元素 <code>children[index]/childNodes</code></p>
+</li>
+<li><p>2、查找父元素 <code>node.parentNode</code> –&gt;获取父元素</p>
+</li>
+<li><p>3、查找兄弟元素 <code>nextSibling</code> <code>previousSibling</code></p>
+</li>
+<li><p>4、<code>nextSibling</code> <code>previousSibling</code> <code>firstChild</code> <code>lastChild</code>这四个属性容易受到<code>空白文本</code>的影响 <code>建议不用</code></p>
+</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//============给Object原型加一个方法 消除文本节点对DOM操作的影响 例如：nextSibling` `previousSibling` `firstChild` `lastChild （受到换行 和文本节点影响）</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">Object</span>.prototype.next = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  <span class="comment">//NodeType == 3 text的代号</span></span><br><span class="line">  <span class="comment">//NodeType == 1 tag的代号</span></span><br><span class="line">  <span class="keyword">if</span>(<span class="keyword">this</span>.nextSibling)&#123;<span class="comment">//判断下一个兄弟节点是否存在</span></span><br><span class="line">  <span class="keyword">switch</span>(<span class="keyword">this</span>.nextSibling.nodeType)&#123;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">      <span class="keyword">return</span> <span class="keyword">this</span>.nextSibling;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">3</span>:</span><br><span class="line">      <span class="keyword">return</span> <span class="keyword">this</span>.nextSibling.nextSibling;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(div1.next().next().innerText);</span><br></pre></td></tr></table></figure>
+<ul>
+<li>5、对于查到的某个元素里面的子元素非常多 这时候还可利用<code>getElementsByTagname</code>进一步筛选</li>
+</ul>
+<p><strong>注意：</strong>对于元素对象和document对象相比 元素对象只能利用getElementsByTagName函数 其他两个不能用</p>
+<ul>
+<li><p>节点查找也是通过由大到小来定位：找到大的元素进一步细化 完全可以找到页面上任意一个元素控制他</p>
+</li>
+<li><p>子元素 不好找 就找他的父元素</p>
+</li>
+<li><p>要过滤空白文本节点，用children取他的文本节点</p>
+</li>
+<li><p><strong>DOM与节点的关系：</strong></p>
+<ul>
+<li><p><strong>node:</strong></p>
+<ul>
+<li><code>childNodes[]</code></li>
+<li><code>parentNode</code></li>
+<li><code>firstChild</code></li>
+<li><code>getElementsByTagName(&#39;元素标签&#39;)</code></li>
+<li><code>lastchild</code></li>
+<li><code>nextSibling</code></li>
+<li><p><code>previousSibling</code></p>
+</li>
+<li><p><code>children[index]</code> <code>children</code> 不是w3c标准 但是各大浏览器兼容性很好</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>通过给原型添加方法在元素后面创建标签</p>
+<p>启示：在项目中，很多很多地方都需要一个方法但是系统没提供，这时可以通过原型扩展</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//var p = document.createElement('p');</span></span><br><span class="line"><span class="comment">//p.innerHTML = "this is a p";</span></span><br><span class="line"><span class="comment">//var child = document.getElementsByTagName('div');</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//给Div的HTMLDivElement构造器原型加一个创建元素的方法 要所有的元素都有这个方法 改成 Object</span></span><br><span class="line">HTMLDivElement.prototype.createElement = <span class="function"><span class="keyword">function</span>(<span class="params">tagName</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">var</span> child = <span class="built_in">document</span>.createElement(tagName);</span><br><span class="line">  <span class="keyword">this</span>.appendChild(child);</span><br><span class="line">  <span class="keyword">return</span> child;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> child = <span class="built_in">document</span>.getElementsByTagName(<span class="string">'div'</span>)[<span class="number">2</span>].createElement(<span class="string">"p"</span>);</span><br><span class="line">child.innerHTML = <span class="string">'pppppp'</span>;</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="附录：思维导图总结"><a href="#附录：思维导图总结" class="headerlink" title="附录：思维导图总结"></a>附录：思维导图总结</h3><p><img src="http://7xq6al.com1.z0.glb.clouddn.com/DOM%20%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.gif" alt=""></p>
+</div><div class="tags"><a href="/tags/Javascript/">Javascript</a></div><div class="post-nav"><a class="pre" href="/2016/07/27/2016/07/JavaScript语言基础之Window属性(八)/">JavaScript语言基础之Window属性(八)</a><a class="next" href="/2016/07/27/2016/07/JavaScript语言基础之数组(七)/">JavaScript语言基础之数组(七)</a></div><div id="vcomment"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script><script>var notify = 'false' == true ? true : false;
+var verify = 'false' == true ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'4NjJ6jbVqoqBDLYLHPuI2SEI-gzGzoHsz',
+  appKey:'u44i9DhxyF2GkKLjj8YH9eot',
+  placeholder:'Just so so',
+  avatar:'mm',
+  guest_info:guest_info,
+  pageSize:'10'
+})</script></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="87%" height="80px" src="//music.163.com/outchain/player?type=2&amp;id=16426514&amp;auto=0&amp;height=66"></iframe></div><div class="widget"><form class="search-form" action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" target="_blank"><input type="search" name="word" maxlength="20" placeholder="Search"><input type="hidden" name="si" value="https://gentlenerjack.github.io"><input name="tn" type="hidden" value="bds"><input name="cl" type="hidden" value="3"><input name="ct" type="hidden" value="2097152"><input name="s" type="hidden" value="on"></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Algorithm/">Algorithm</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Back-end/">Back-end</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Build/">Build</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/DataBase/">DataBase</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Designed/">Designed</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Front-End/">Front-End</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo教程/">Hexo教程</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tools/">Tools</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/VCS/">VCS</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/优质文章分享/">优质文章分享</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端分享/">前端分享</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端周刊/">前端周刊</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/好文分享/">好文分享</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/工欲善其事必先利其器/">工欲善其事必先利其器</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/Travis-CI/" style="font-size: 15px;">Travis CI</a> <a href="/tags/CSS/" style="font-size: 15px;">CSS</a> <a href="/tags/python/" style="font-size: 15px;">python</a> <a href="/tags/Linux/" style="font-size: 15px;">Linux</a> <a href="/tags/webstorm/" style="font-size: 15px;">webstorm</a> <a href="/tags/sublime/" style="font-size: 15px;">sublime</a> <a href="/tags/GitHub/" style="font-size: 15px;">GitHub</a> <a href="/tags/Vim/" style="font-size: 15px;">Vim</a> <a href="/tags/Tools/" style="font-size: 15px;">Tools</a> <a href="/tags/XHTML/" style="font-size: 15px;">XHTML</a> <a href="/tags/速查表/" style="font-size: 15px;">速查表</a> <a href="/tags/Mysql/" style="font-size: 15px;">Mysql</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/Ubuntu/" style="font-size: 15px;">Ubuntu</a> <a href="/tags/Javascript/" style="font-size: 15px;">Javascript</a> <a href="/tags/SVN/" style="font-size: 15px;">SVN</a> <a href="/tags/jQuery/" style="font-size: 15px;">jQuery</a> <a href="/tags/正则表达式/" style="font-size: 15px;">正则表达式</a> <a href="/tags/PS/" style="font-size: 15px;">PS</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/Snippet/" style="font-size: 15px;">Snippet</a> <a href="/tags/设计/" style="font-size: 15px;">设计</a> <a href="/tags/居中/" style="font-size: 15px;">居中</a> <a href="/tags/HTML5/" style="font-size: 15px;">HTML5</a> <a href="/tags/Canvas/" style="font-size: 15px;">Canvas</a> <a href="/tags/PHP/" style="font-size: 15px;">PHP</a> <a href="/tags/数组/" style="font-size: 15px;">数组</a> <a href="/tags/继承/" style="font-size: 15px;">继承</a> <a href="/tags/事件/" style="font-size: 15px;">事件</a> <a href="/tags/面向对象/" style="font-size: 15px;">面向对象</a> <a href="/tags/MVC/" style="font-size: 15px;">MVC</a> <a href="/tags/原型链/" style="font-size: 15px;">原型链</a> <a href="/tags/DOM/" style="font-size: 15px;">DOM</a> <a href="/tags/作用域/" style="font-size: 15px;">作用域</a> <a href="/tags/ES6/" style="font-size: 15px;">ES6</a> <a href="/tags/webpack/" style="font-size: 15px;">webpack</a> <a href="/tags/弹性布局/" style="font-size: 15px;">弹性布局</a> <a href="/tags/VS/" style="font-size: 15px;">VS</a> <a href="/tags/闭包/" style="font-size: 15px;">闭包</a> <a href="/tags/Node/" style="font-size: 15px;">Node</a> <a href="/tags/部署/" style="font-size: 15px;">部署</a> <a href="/tags/移动端/" style="font-size: 15px;">移动端</a> <a href="/tags/Git/" style="font-size: 15px;">Git</a> <a href="/tags/Nginx/" style="font-size: 15px;">Nginx</a> <a href="/tags/跨域/" style="font-size: 15px;">跨域</a> <a href="/tags/读书笔记/" style="font-size: 15px;">读书笔记</a> <a href="/tags/高阶函数/" style="font-size: 15px;">高阶函数</a> <a href="/tags/Axios/" style="font-size: 15px;">Axios</a> <a href="/tags/React/" style="font-size: 15px;">React</a> <a href="/tags/RESTful-API/" style="font-size: 15px;">RESTful API</a> <a href="/tags/测试/" style="font-size: 15px;">测试</a> <a href="/tags/bootstrap/" style="font-size: 15px;">bootstrap</a> <a href="/tags/调试/" style="font-size: 15px;">调试</a> <a href="/tags/Fiddler/" style="font-size: 15px;">Fiddler</a> <a href="/tags/editconfig/" style="font-size: 15px;">editconfig</a> <a href="/tags/Echart/" style="font-size: 15px;">Echart</a> <a href="/tags/适配/" style="font-size: 15px;">适配</a> <a href="/tags/HTTP/" style="font-size: 15px;">HTTP</a> <a href="/tags/前端规范/" style="font-size: 15px;">前端规范</a> <a href="/tags/VS-Code/" style="font-size: 15px;">VS Code</a> <a href="/tags/npm/" style="font-size: 15px;">npm</a> <a href="/tags/Vue/" style="font-size: 15px;">Vue</a> <a href="/tags/angular/" style="font-size: 15px;">angular</a> <a href="/tags/踩过的坑/" style="font-size: 15px;">踩过的坑</a> <a href="/tags/elementUI/" style="font-size: 15px;">elementUI</a> <a href="/tags/组件通信/" style="font-size: 15px;">组件通信</a> <a href="/tags/vue/" style="font-size: 15px;">vue</a> <a href="/tags/Immutable/" style="font-size: 15px;">Immutable</a> <a href="/tags/API/" style="font-size: 15px;">API</a> <a href="/tags/小程序/" style="font-size: 15px;">小程序</a> <a href="/tags/redux/" style="font-size: 15px;">redux</a> <a href="/tags/js代码片段/" style="font-size: 15px;">js代码片段</a> <a href="/tags/node/" style="font-size: 15px;">node</a> <a href="/tags/优质文章分享/" style="font-size: 15px;">优质文章分享</a> <a href="/tags/Taro/" style="font-size: 15px;">Taro</a> <a href="/tags/前端周刊/" style="font-size: 15px;">前端周刊</a> <a href="/tags/html5/" style="font-size: 15px;">html5</a> <a href="/tags/前端自动化/" style="font-size: 15px;">前端自动化</a> <a href="/tags/Ajax/" style="font-size: 15px;">Ajax</a> <a href="/tags/Fetch/" style="font-size: 15px;">Fetch</a> <a href="/tags/面试/" style="font-size: 15px;">面试</a> <a href="/tags/组件化/" style="font-size: 15px;">组件化</a> <a href="/tags/MVVM/" style="font-size: 15px;">MVVM</a> <a href="/tags/Hybird/" style="font-size: 15px;">Hybird</a> <a href="/tags/虚拟DOM/" style="font-size: 15px;">虚拟DOM</a> <a href="/tags/Deferred/" style="font-size: 15px;">Deferred</a> <a href="/tags/Vuex/" style="font-size: 15px;">Vuex</a> <a href="/tags/react/" style="font-size: 15px;">react</a> <a href="/tags/微信开发/" style="font-size: 15px;">微信开发</a> <a href="/tags/cookie/" style="font-size: 15px;">cookie</a> <a href="/tags/ajax/" style="font-size: 15px;">ajax</a> <a href="/tags/Atom/" style="font-size: 15px;">Atom</a> <a href="/tags/Emmet/" style="font-size: 15px;">Emmet</a> <a href="/tags/gulp/" style="font-size: 15px;">gulp</a> <a href="/tags/video/" style="font-size: 15px;">video</a> <a href="/tags/MobX/" style="font-size: 15px;">MobX</a> <a href="/tags/csshack/" style="font-size: 15px;">csshack</a> <a href="/tags/异步回调/" style="font-size: 15px;">异步回调</a> <a href="/tags/eslint/" style="font-size: 15px;">eslint</a> <a href="/tags/性能优化/" style="font-size: 15px;">性能优化</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/10/27/2018/10/vue生命周期和react生命周期对比/">vue生命周期和react生命周期对比</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/26/2018/10/js深度拷贝解决双向绑定问题-包含es6方法/">js深度拷贝解决双向绑定问题(包含es6方法)</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/26/2018/10/ajax和fetch、axios的优缺点以及比较/">ajax和fetch、axios的优缺点以及比较</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/22/2018/10/关于数组中forEach-、map-、filter-、reduce-、some-、every-的总结/">关于数组中forEach() 、map()、filter()、reduce()、some()、every()的总结</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/22/2018/10/跨域问题携带cookie加入withCredentials报错原因以及解决方案/">跨域问题携带cookie加入withCredentials报错原因以及解决方案</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/22/2018/10/输入框input类型为number时，去掉上下箭头方式/">输入框input类型为number时，去掉上下箭头样式</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/21/2018/10/fe-interview-hybrid/">前端面试之hybrid</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/21/2018/10/fe-interview-component/">前端面试之组件化</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/21/2018/10/fe-interview-mvvm/">前端面试之MVVM浅析</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/20/2018/10/vdom-improve/">虚拟DOM（二）</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.borscon.com/" title="borscon" target="_blank">borscon</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2018 <a href="/." rel="nofollow">勿忘初心.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>

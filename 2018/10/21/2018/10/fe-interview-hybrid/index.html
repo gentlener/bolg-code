@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta name="generator" content="Hexo 3.8.0"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta content="xyR3o2cKfa" name="baidu-site-verification"><meta name="description" content="这是jack的博客的第一次尝试"><title>前端面试之hybrid | 勿忘初心</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/8.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">前端面试之hybrid</h1><a id="logo" href="/.">勿忘初心</a><p class="description">既然已匆匆,不如早怀念</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/JackSaying/"><i class="fa fa-tag"> 点滴</i></a><a href="/movies/"><i class="fa fa-film"> 电影</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">前端面试之hybrid</h1><div class="post-meta">Oct 21, 2018<span> | </span><span class="category"><a href="/categories/Front-End/">Front-End</a></span></div><a class="disqus-comment-count" href="/2018/10/21/2018/10/fe-interview-hybrid/#vcomment"><span class="valine-comment-count" data-xid="/2018/10/21/2018/10/fe-interview-hybrid/"></span><span> 条评论</span></a><div class="post-content"><p><img src="https://upload-images.jianshu.io/upload_images/1480597-c6dfe0f6f12fe034.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<h2 id="一、hybrid-是什么，为何会用-hybrid"><a href="#一、hybrid-是什么，为何会用-hybrid" class="headerlink" title="一、hybrid 是什么，为何会用 hybrid"></a>一、hybrid 是什么，为何会用 hybrid</h2><h3 id="1-1-hybrid-文字解释"><a href="#1-1-hybrid-文字解释" class="headerlink" title="1.1 hybrid 文字解释"></a>1.1 hybrid 文字解释</h3><ul>
+<li><code>hybrid</code> 即“混合”，即前端和客户端的混合开发</li>
+<li>需前端开发人员和客户端开发人员配合完成</li>
+<li>某些环节也可能涉及到 <code>server</code> 端</li>
+<li>PS：不要以为自己的前端就可以不理会客户端的知识</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/1480597-8bb6aab836ef1b04.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<h3 id="1-2-hybrid-存在价值"><a href="#1-2-hybrid-存在价值" class="headerlink" title="1.2 hybrid 存在价值"></a>1.2 hybrid 存在价值</h3><ul>
+<li>可以快速迭代更新【关键】（无需 app 审核，思考为何？）</li>
+<li>体验流畅（和 NA 的体验基本类似）</li>
+<li>减少开发和沟通成本，双端公用一套代码</li>
+</ul>
+<h3 id="1-3-webview"><a href="#1-3-webview" class="headerlink" title="1.3 webview"></a>1.3 webview</h3><ul>
+<li>是 <code>app</code> 中的一个组件（ <code>app</code> 可以有 <code>webview</code> ，也可以没有）</li>
+<li>于加载 <code>h5</code> 页面，即一个小型的浏览器内核</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/1480597-683f8336237ea709.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br><img src="https://upload-images.jianshu.io/upload_images/1480597-2c35b8e256628d90.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<h3 id="1-4-file-协议"><a href="#1-4-file-协议" class="headerlink" title="1.4 file 协议"></a>1.4 file 协议</h3><ul>
+<li>其实在一开始接触 <code>html</code>开发，就已经使用了 <code>file</code> 协议</li>
+<li>只不过你当时没有“协议”“标准”等这些概念</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/1480597-658f64270968f795.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<h3 id="1-5-http-s-协议"><a href="#1-5-http-s-协议" class="headerlink" title="1.5 http(s) 协议"></a>1.5 http(s) 协议</h3><p><img src="https://upload-images.jianshu.io/upload_images/1480597-120c70939dda4f33.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<h3 id="1-6-两者区别"><a href="#1-6-两者区别" class="headerlink" title="1.6 两者区别"></a>1.6 两者区别</h3><ul>
+<li><code>file</code> 协议：本地文件，快</li>
+<li><code>http(s)</code> 协议：网络加载，慢</li>
+</ul>
+<h3 id="1-7-具体实现"><a href="#1-7-具体实现" class="headerlink" title="1.7 具体实现"></a>1.7 具体实现</h3><ul>
+<li>不是所有场景都适合使用 <code>hybrid</code></li>
+<li>使用 <code>NA</code> ：体验要求极致，变化不频繁（无头条的首页）</li>
+<li>使用 <code>hybrid</code> ：体验要求高，变化频繁（如头条的新闻详情页）</li>
+<li>使用 <code>h5</code> ：体验无要求，不常用（如举报、反馈等页面）</li>
+</ul>
+<blockquote>
+<p>实现</p>
+</blockquote>
+<ul>
+<li>前端做好静态页面（<code>html js css</code>），将文件交给客户端</li>
+<li>客户端拿到前端静态页面，以文件形式存储在 <code>app</code> 中</li>
+<li>客户端在一个 <code>webview</code> 中</li>
+<li>使用 <code>file</code> 协议加载静态页面</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/1480597-78c3827d77e01846.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<h2 id="二、hybrid-更新上线流程"><a href="#二、hybrid-更新上线流程" class="headerlink" title="二、hybrid 更新上线流程"></a>二、hybrid 更新上线流程</h2><h3 id="2-1-具体流程图"><a href="#2-1-具体流程图" class="headerlink" title="2.1 具体流程图"></a>2.1 具体流程图</h3><p><img src="https://upload-images.jianshu.io/upload_images/1480597-968e9acbd54baf44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p><strong>思考（目的，可行途径）</strong></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/1480597-da3cb73a39523a77.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<ul>
+<li>要替换每个客户端的静态文件</li>
+<li>只能客户端来做（客户端是我们开发的）</li>
+<li>客户端去 server 下载最新的静态文件</li>
+<li>我们维护 server 的静态文件</li>
+</ul>
+<h3 id="2-2-完整流程"><a href="#2-2-完整流程" class="headerlink" title="2.2 完整流程"></a>2.2 完整流程</h3><p><img src="https://upload-images.jianshu.io/upload_images/1480597-3ed2e0dcff457b30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<ul>
+<li>分版本，有版本号，如 <code>201803211015</code></li>
+<li>将静态文件压缩成 <code>zip</code>包，上传到服务端</li>
+<li>客户端每次启动，都去服务端检查版本号</li>
+<li>如果服务端版本号大于客户端版本号，就去下载最新的 <code>zip</code> 包</li>
+<li>下载完之后解压包，然后将现有文件覆盖</li>
+</ul>
+<p><strong>要点总结</strong></p>
+<ul>
+<li>要点1：服务端的版本和<code>zip</code>包维护</li>
+<li>要点2：更新<code>zip</code> 包之前，先对比版本号</li>
+<li>要点3：<code>zip</code> 下载解压和覆盖</li>
+</ul>
+<h2 id="三、hybrid-和-h5-的区别"><a href="#三、hybrid-和-h5-的区别" class="headerlink" title="三、hybrid 和 h5 的区别"></a>三、hybrid 和 h5 的区别</h2><h3 id="3-1-优点"><a href="#3-1-优点" class="headerlink" title="3.1 优点"></a>3.1 优点</h3><ul>
+<li>体验更好，跟 <code>NA</code>体验基本一致</li>
+<li>可快速迭代，无需 <code>app</code> 审核【关键】</li>
+</ul>
+<h3 id="3-2-缺点"><a href="#3-2-缺点" class="headerlink" title="3.2 缺点"></a>3.2 缺点</h3><ul>
+<li>开发成本高。联调、测试、查 <code>bug</code> 都比较麻烦</li>
+<li>运维成本高。参考此前讲过的更新上线的流程</li>
+</ul>
+<h3 id="3-3-适用的场景"><a href="#3-3-适用的场景" class="headerlink" title="3.3 适用的场景"></a>3.3 适用的场景</h3><ul>
+<li><code>hybrid</code> ： 产品的稳定功能，体验要求高，迭代频繁</li>
+<li><code>h5</code> ： 单词的运营活动（如 <code>xx</code> 红包）或不常用功能</li>
+</ul>
+<h2 id="四、前端和客户端通讯"><a href="#四、前端和客户端通讯" class="headerlink" title="四、前端和客户端通讯"></a>四、前端和客户端通讯</h2><h3 id="4-1-JS-和客户端通讯的基本形式"><a href="#4-1-JS-和客户端通讯的基本形式" class="headerlink" title="4.1 JS 和客户端通讯的基本形式"></a>4.1 JS 和客户端通讯的基本形式</h3><ul>
+<li><code>JS</code> 访问客户端能力，传递参数和回调函数</li>
+<li>客户端通过回调函数返回内容</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/1480597-68700d9920ef0351.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<h3 id="4-2-schema-协议简介和使用"><a href="#4-2-schema-协议简介和使用" class="headerlink" title="4.2 schema 协议简介和使用"></a>4.2 schema 协议简介和使用</h3><ul>
+<li>之前介绍了 <code>http(s)</code> 和 <code>file</code> 协议</li>
+<li><code>schema</code> 协议 —— 前端和客户端通讯的约定</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/1480597-728d555cfb705e00.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br><img src="https://upload-images.jianshu.io/upload_images/1480597-87869b716de1fee3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br><img src="https://upload-images.jianshu.io/upload_images/1480597-a0215dd1a9fcfa34.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<h3 id="4-3-schema-使用的封装"><a href="#4-3-schema-使用的封装" class="headerlink" title="4.3 schema 使用的封装"></a>4.3 schema 使用的封装</h3><p><img src="https://upload-images.jianshu.io/upload_images/1480597-870b827be457e049.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/1480597-725ad0ec319d8d88.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/1480597-66d0b2f3f4af2495.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<h3 id="4-4-内置上线"><a href="#4-4-内置上线" class="headerlink" title="4.4 内置上线"></a>4.4 内置上线</h3><ul>
+<li>将以上封装的代码打包，叫做 <code>invoke.js</code>，内置到客户端</li>
+<li>客户端每次启动 <code>webview</code>，都默认执行 <code>invoke.js</code></li>
+<li>本地加载，免去网络加载的时间，更快</li>
+<li>本地加载，没有网络请求，黑客看不到 <code>schema</code> 协议，更安全</li>
+</ul>
+</div><div class="tags"><a href="/tags/面试/">面试</a><a href="/tags/Hybird/">Hybird</a></div><div class="post-nav"><a class="pre" href="/2018/10/22/2018/10/输入框input类型为number时，去掉上下箭头方式/">输入框input类型为number时，去掉上下箭头样式</a><a class="next" href="/2018/10/21/2018/10/fe-interview-component/">前端面试之组件化</a></div><div id="vcomment"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script><script>var notify = 'false' == true ? true : false;
+var verify = 'false' == true ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'4NjJ6jbVqoqBDLYLHPuI2SEI-gzGzoHsz',
+  appKey:'u44i9DhxyF2GkKLjj8YH9eot',
+  placeholder:'Just so so',
+  avatar:'mm',
+  guest_info:guest_info,
+  pageSize:'10'
+})</script></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="87%" height="80px" src="//music.163.com/outchain/player?type=2&amp;id=16426514&amp;auto=0&amp;height=66"></iframe></div><div class="widget"><form class="search-form" action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" target="_blank"><input type="search" name="word" maxlength="20" placeholder="Search"><input type="hidden" name="si" value="https://gentlenerjack.github.io"><input name="tn" type="hidden" value="bds"><input name="cl" type="hidden" value="3"><input name="ct" type="hidden" value="2097152"><input name="s" type="hidden" value="on"></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Algorithm/">Algorithm</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Back-end/">Back-end</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Build/">Build</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/DataBase/">DataBase</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Designed/">Designed</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Front-End/">Front-End</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo教程/">Hexo教程</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tools/">Tools</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/VCS/">VCS</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/优质文章分享/">优质文章分享</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端分享/">前端分享</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端周刊/">前端周刊</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/好文分享/">好文分享</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/工欲善其事必先利其器/">工欲善其事必先利其器</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/Travis-CI/" style="font-size: 15px;">Travis CI</a> <a href="/tags/CSS/" style="font-size: 15px;">CSS</a> <a href="/tags/python/" style="font-size: 15px;">python</a> <a href="/tags/Linux/" style="font-size: 15px;">Linux</a> <a href="/tags/webstorm/" style="font-size: 15px;">webstorm</a> <a href="/tags/sublime/" style="font-size: 15px;">sublime</a> <a href="/tags/GitHub/" style="font-size: 15px;">GitHub</a> <a href="/tags/Vim/" style="font-size: 15px;">Vim</a> <a href="/tags/Tools/" style="font-size: 15px;">Tools</a> <a href="/tags/XHTML/" style="font-size: 15px;">XHTML</a> <a href="/tags/速查表/" style="font-size: 15px;">速查表</a> <a href="/tags/Mysql/" style="font-size: 15px;">Mysql</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/Ubuntu/" style="font-size: 15px;">Ubuntu</a> <a href="/tags/Javascript/" style="font-size: 15px;">Javascript</a> <a href="/tags/SVN/" style="font-size: 15px;">SVN</a> <a href="/tags/jQuery/" style="font-size: 15px;">jQuery</a> <a href="/tags/正则表达式/" style="font-size: 15px;">正则表达式</a> <a href="/tags/PS/" style="font-size: 15px;">PS</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/Snippet/" style="font-size: 15px;">Snippet</a> <a href="/tags/设计/" style="font-size: 15px;">设计</a> <a href="/tags/居中/" style="font-size: 15px;">居中</a> <a href="/tags/HTML5/" style="font-size: 15px;">HTML5</a> <a href="/tags/Canvas/" style="font-size: 15px;">Canvas</a> <a href="/tags/PHP/" style="font-size: 15px;">PHP</a> <a href="/tags/数组/" style="font-size: 15px;">数组</a> <a href="/tags/继承/" style="font-size: 15px;">继承</a> <a href="/tags/事件/" style="font-size: 15px;">事件</a> <a href="/tags/面向对象/" style="font-size: 15px;">面向对象</a> <a href="/tags/MVC/" style="font-size: 15px;">MVC</a> <a href="/tags/原型链/" style="font-size: 15px;">原型链</a> <a href="/tags/DOM/" style="font-size: 15px;">DOM</a> <a href="/tags/作用域/" style="font-size: 15px;">作用域</a> <a href="/tags/ES6/" style="font-size: 15px;">ES6</a> <a href="/tags/webpack/" style="font-size: 15px;">webpack</a> <a href="/tags/弹性布局/" style="font-size: 15px;">弹性布局</a> <a href="/tags/VS/" style="font-size: 15px;">VS</a> <a href="/tags/闭包/" style="font-size: 15px;">闭包</a> <a href="/tags/Node/" style="font-size: 15px;">Node</a> <a href="/tags/部署/" style="font-size: 15px;">部署</a> <a href="/tags/移动端/" style="font-size: 15px;">移动端</a> <a href="/tags/Git/" style="font-size: 15px;">Git</a> <a href="/tags/Nginx/" style="font-size: 15px;">Nginx</a> <a href="/tags/跨域/" style="font-size: 15px;">跨域</a> <a href="/tags/读书笔记/" style="font-size: 15px;">读书笔记</a> <a href="/tags/高阶函数/" style="font-size: 15px;">高阶函数</a> <a href="/tags/Axios/" style="font-size: 15px;">Axios</a> <a href="/tags/React/" style="font-size: 15px;">React</a> <a href="/tags/RESTful-API/" style="font-size: 15px;">RESTful API</a> <a href="/tags/测试/" style="font-size: 15px;">测试</a> <a href="/tags/bootstrap/" style="font-size: 15px;">bootstrap</a> <a href="/tags/调试/" style="font-size: 15px;">调试</a> <a href="/tags/Fiddler/" style="font-size: 15px;">Fiddler</a> <a href="/tags/editconfig/" style="font-size: 15px;">editconfig</a> <a href="/tags/Echart/" style="font-size: 15px;">Echart</a> <a href="/tags/适配/" style="font-size: 15px;">适配</a> <a href="/tags/HTTP/" style="font-size: 15px;">HTTP</a> <a href="/tags/前端规范/" style="font-size: 15px;">前端规范</a> <a href="/tags/VS-Code/" style="font-size: 15px;">VS Code</a> <a href="/tags/npm/" style="font-size: 15px;">npm</a> <a href="/tags/Vue/" style="font-size: 15px;">Vue</a> <a href="/tags/angular/" style="font-size: 15px;">angular</a> <a href="/tags/踩过的坑/" style="font-size: 15px;">踩过的坑</a> <a href="/tags/elementUI/" style="font-size: 15px;">elementUI</a> <a href="/tags/组件通信/" style="font-size: 15px;">组件通信</a> <a href="/tags/vue/" style="font-size: 15px;">vue</a> <a href="/tags/Immutable/" style="font-size: 15px;">Immutable</a> <a href="/tags/API/" style="font-size: 15px;">API</a> <a href="/tags/小程序/" style="font-size: 15px;">小程序</a> <a href="/tags/redux/" style="font-size: 15px;">redux</a> <a href="/tags/js代码片段/" style="font-size: 15px;">js代码片段</a> <a href="/tags/node/" style="font-size: 15px;">node</a> <a href="/tags/优质文章分享/" style="font-size: 15px;">优质文章分享</a> <a href="/tags/Taro/" style="font-size: 15px;">Taro</a> <a href="/tags/前端周刊/" style="font-size: 15px;">前端周刊</a> <a href="/tags/html5/" style="font-size: 15px;">html5</a> <a href="/tags/前端自动化/" style="font-size: 15px;">前端自动化</a> <a href="/tags/Ajax/" style="font-size: 15px;">Ajax</a> <a href="/tags/Fetch/" style="font-size: 15px;">Fetch</a> <a href="/tags/面试/" style="font-size: 15px;">面试</a> <a href="/tags/组件化/" style="font-size: 15px;">组件化</a> <a href="/tags/MVVM/" style="font-size: 15px;">MVVM</a> <a href="/tags/Hybird/" style="font-size: 15px;">Hybird</a> <a href="/tags/虚拟DOM/" style="font-size: 15px;">虚拟DOM</a> <a href="/tags/Deferred/" style="font-size: 15px;">Deferred</a> <a href="/tags/Vuex/" style="font-size: 15px;">Vuex</a> <a href="/tags/react/" style="font-size: 15px;">react</a> <a href="/tags/微信开发/" style="font-size: 15px;">微信开发</a> <a href="/tags/cookie/" style="font-size: 15px;">cookie</a> <a href="/tags/ajax/" style="font-size: 15px;">ajax</a> <a href="/tags/Atom/" style="font-size: 15px;">Atom</a> <a href="/tags/Emmet/" style="font-size: 15px;">Emmet</a> <a href="/tags/gulp/" style="font-size: 15px;">gulp</a> <a href="/tags/video/" style="font-size: 15px;">video</a> <a href="/tags/MobX/" style="font-size: 15px;">MobX</a> <a href="/tags/csshack/" style="font-size: 15px;">csshack</a> <a href="/tags/异步回调/" style="font-size: 15px;">异步回调</a> <a href="/tags/eslint/" style="font-size: 15px;">eslint</a> <a href="/tags/性能优化/" style="font-size: 15px;">性能优化</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/10/27/2018/10/vue生命周期和react生命周期对比/">vue生命周期和react生命周期对比</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/26/2018/10/js深度拷贝解决双向绑定问题-包含es6方法/">js深度拷贝解决双向绑定问题(包含es6方法)</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/26/2018/10/ajax和fetch、axios的优缺点以及比较/">ajax和fetch、axios的优缺点以及比较</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/22/2018/10/关于数组中forEach-、map-、filter-、reduce-、some-、every-的总结/">关于数组中forEach() 、map()、filter()、reduce()、some()、every()的总结</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/22/2018/10/跨域问题携带cookie加入withCredentials报错原因以及解决方案/">跨域问题携带cookie加入withCredentials报错原因以及解决方案</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/22/2018/10/输入框input类型为number时，去掉上下箭头方式/">输入框input类型为number时，去掉上下箭头样式</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/21/2018/10/fe-interview-hybrid/">前端面试之hybrid</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/21/2018/10/fe-interview-component/">前端面试之组件化</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/21/2018/10/fe-interview-mvvm/">前端面试之MVVM浅析</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/20/2018/10/vdom-improve/">虚拟DOM（二）</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.borscon.com/" title="borscon" target="_blank">borscon</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2018 <a href="/." rel="nofollow">勿忘初心.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>

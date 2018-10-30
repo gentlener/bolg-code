@@ -1,0 +1,138 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta name="generator" content="Hexo 3.8.0"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta content="xyR3o2cKfa" name="baidu-site-verification"><meta name="description" content="这是jack的博客的第一次尝试"><title>基于鸟哥linux私房菜整理的常用基本命令 | 勿忘初心</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/8.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">基于鸟哥linux私房菜整理的常用基本命令</h1><a id="logo" href="/.">勿忘初心</a><p class="description">既然已匆匆,不如早怀念</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/JackSaying/"><i class="fa fa-tag"> 点滴</i></a><a href="/movies/"><i class="fa fa-film"> 电影</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">基于鸟哥linux私房菜整理的常用基本命令</h1><div class="post-meta">Apr 17, 2016<span> | </span><span class="category"><a href="/categories/Back-end/">Back-end</a></span></div><a class="disqus-comment-count" href="/2016/04/17/2016/04/基于鸟哥linux私房菜整理的常用基本命令/#vcomment"><span class="valine-comment-count" data-xid="/2016/04/17/2016/04/基于鸟哥linux私房菜整理的常用基本命令/"></span><span> 条评论</span></a><div class="post-content"><p><strong>1、显示日期的指令： date</strong><br><a id="more"></a><br><img src="http://img.my.csdn.net/uploads/201303/22/1363935954_6311.png" alt="此处输入图片的描述"></p>
+<p><strong>2、显示日历的指令：cal</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363935980_1369.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363935990_8670.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363935996_9522.png" alt="此处输入图片的描述"></p>
+<p><strong>3、简单好用的计算器：bc</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936042_6658.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936054_8908.png" alt="此处输入图片的描述"></p>
+<p>怎么10/100会变成0呢？这是因为bc预设仅输出整数，如果要输出小数点下位数，那么就必须要执行 scale=number ，那个number就是小数点位数，例如：</p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936069_2896.png" alt="此处输入图片的描述"></p>
+<p><strong>4、重要的几个热键[Tab],[ctrl]-c, [ctrl]-d</strong> </p>
+<ul>
+<li><p><code>[Tab]</code>按键—具有『命令补全』不『档案补齐』的功能</p>
+</li>
+<li><p><code>[Ctrl]-c</code>按键—让当前的程序『停掉』</p>
+</li>
+<li><p><code>[Ctrl]-d</code>按键—通常代表着：『键盘输入结束(End Of File, EOF 戒 End OfInput)』的意思；另外，他也可以用来取代exit</p>
+</li>
+</ul>
+<p><strong>5、man</strong></p>
+<p>退出用q，<br>man -f man</p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936109_3235.png" alt="此处输入图片的描述"></p>
+<p><strong>6、数据同步写入磁盘： sync</strong></p>
+<p>输入sync，那举在内存中尚未被更新的数据，就会被写入硬盘中；所以，这个挃令在系统关机戒重新启劢乀前， 径重要喔！最好多执行几次！</p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936120_9820.png" alt="此处输入图片的描述"></p>
+<p><strong>7、惯用的关机指令：shutdown</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936132_1780.png" alt="此处输入图片的描述"></p>
+<p>此外，需要注意的是，时间参数请务必加入指令中，否则shutdown会自动跳到 run-level 1 (就是单人维护的登入情况)，这样就伤脑筋了！底下提供几个时间参数的例子吧：</p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936145_2758.png" alt="此处输入图片的描述"></p>
+<p>重启，关机： reboot, halt,poweroff</p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936183_6281.png" alt="此处输入图片的描述"></p>
+<p><strong>8、切换执行等级： init</strong></p>
+<ul>
+<li><p><strong>Linux共有七种执行等级：</strong></p>
+<ul>
+<li><p>–run level 0 :关机</p>
+</li>
+<li><p>–run level 3 :纯文本模式</p>
+</li>
+<li><p>–run level 5 :含有图形接口模式</p>
+</li>
+<li><p>–run level 6 :重新启动</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>使用init这个指令来切换各模式：</p>
+<p>如果你想要关机的话，除了上述的shutdown -h now以及poweroff之外，你也可以使用如下的指令来关机：  </p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936183_6281.png" alt="此处输入图片的描述"></p>
+<p><strong>9、改变文件的所属群组：chgrp</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936198_8642.png" alt="此处输入图片的描述"></p>
+<p><strong>10、改变文件拥有者：chown</strong></p>
+<p>他还可以顸便直接修改群组的名称</p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936213_8090.png" alt="此处输入图片的描述"></p>
+<p><strong>11、改变文件的权限：chmod</strong></p>
+<p>权限的设定方法有两种， 分别可以使用数字或者是符号来进行权限的变更。</p>
+<p>–数字类型改变档案权限：</p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936248_2355.png" alt="此处输入图片的描述"></p>
+<p>–符号类型改变档案权限：</p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936259_4661.png" alt="此处输入图片的描述"></p>
+<p><strong>12、查看版本信息等</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936285_4549.png" alt="此处输入图片的描述"></p>
+<p><strong>13、变换目录：cd</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936297_1247.png" alt="此处输入图片的描述"></p>
+<p><strong>14、显示当前所在目录：pwd</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936306_6088.png" alt="此处输入图片的描述"></p>
+<p><strong>15、建立新目录：mkdir</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936321_4240.png" alt="此处输入图片的描述"></p>
+<p>不建议常用-p这个选项，因为担心如果你打错字，那么目录名称就回变得乱七八糟的</p>
+<p><strong>16、删除『空』的目录：rmdir</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936353_8065.png" alt="此处输入图片的描述"></p>
+<p><strong>17、档案与目录的显示：ls</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936364_8540.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936378_2040.png" alt="此处输入图片的描述"></p>
+<p><strong>18、复制档案或目录：cp</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936391_3459.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936405_1275.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936421_3936.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936434_7475.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936447_1389.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936473_8128.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936488_3487.png" alt="此处输入图片的描述"></p>
+<p><strong>19、移除档案或目录：rm</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936513_9642.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936523_3283.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936534_8970.png" alt="此处输入图片的描述"></p>
+<p><strong>20、移动档案与目录，或更名：mv</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936546_1932.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936558_1163.png" alt="此处输入图片的描述"></p>
+<p><strong>21、取得路径的文件名与目录名：basename，dirname</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936571_2352.png" alt="此处输入图片的描述"></p>
+<p><strong>22、由第一行开始显示档案内容：cat</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936609_6282.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936621_3423.png" alt="此处输入图片的描述"></p>
+<p><strong>23、从最后一行开始显示：tac（可以看出 tac 是 cat 的倒着写）</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936634_1541.png" alt="此处输入图片的描述"></p>
+<p><strong>24、显示的时候，顺道输出行号：nl</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936651_6458.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936671_4557.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936684_7797.png" alt="此处输入图片的描述"></p>
+<p><strong>25、一页一页的显示档案内容：more</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936710_9067.png" alt="此处输入图片的描述"></p>
+<p><strong>26、与 more 类似，但是比 more 更好的是，他可以往前翻页：less</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936728_2729.png" alt="此处输入图片的描述"></p>
+<p><strong>27、只看头几行：head</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936748_3301.png" alt="此处输入图片的描述"></p>
+<p><strong>28、只看尾几行：tail</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936798_8160.png" alt="此处输入图片的描述"></p>
+<p><strong>29、以二进制的放置读取档案内容：od</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936808_2619.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936819_8586.png" alt="此处输入图片的描述"></p>
+<p><strong>30、修改档案时间或新建档案：touch</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936832_1025.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936847_2396.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936857_7179.png" alt="此处输入图片的描述"></p>
+<p><strong>31、档案预设权限：umask</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936868_1680.png" alt="此处输入图片的描述"></p>
+<p><strong>32、配置文件档案隐藏属性：chattr</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936877_4715.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936886_3351.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936897_2939.png" alt="此处输入图片的描述"></p>
+<p><strong>33、显示档案隐藏属性：lsattr</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936910_4210.png" alt="此处输入图片的描述"></p>
+<p><strong>34、观察文件类型：file</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936932_2949.png" alt="此处输入图片的描述"></p>
+<p><strong>35、寻找【执行挡】：which</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936932_2949.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363936946_1973.png" alt="此处输入图片的描述"></p>
+<p><strong>36、寻找特定档案：whereis</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363936956_5666.png" alt="此处输入图片的描述"></p>
+<p><strong>37、寻找特定档案：locate</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363937757_9288.png" alt="此处输入图片的描述"></p>
+<p><strong>38、寻找特定档案：find</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363937773_3082.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363937784_2757.png" alt="此处输入图片的描述"></p>
+<p><strong>39、压缩文件和读取压缩文件：gzip，zcat</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363937793_4694.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363937802_1953.png" alt="此处输入图片的描述"></p>
+<p><strong>40、压缩文件和读取压缩文件：bzip2，bzcat</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363937816_9269.png" alt="此处输入图片的描述"></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363937900_4463.png" alt="此处输入图片的描述"></p>
+<p><strong>41、压缩文件和读取压缩文件：tar</strong></p>
+<p><img src="http://img.my.csdn.net/uploads/201303/22/1363937990_3354.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363938001_5653.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363938031_1319.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363938044_9852.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363938052_3223.png" alt="此处输入图片的描述"><br><img src="http://img.my.csdn.net/uploads/201303/22/1363938061_6833.png" alt="此处输入图片的描述"><br>  <a href="http://img.my.csdn.net/uploads/201303/22/1363936183_6281.png" target="_blank" rel="noopener">12</a>: <a href="http://img.my.csdn.net/uploads/201303/22/1363936158_46941]" target="_blank" rel="noopener">http://img.my.csdn.net/uploads/201303/22/1363936158_46941]</a>: <a href="http://img.my.csdn.net/uploads/201303/22/1363936145_2758.png" target="_blank" rel="noopener">http://img.my.csdn.net/uploads/201303/22/1363936145_2758.png</a></p>
+<p>  <a href="http://img.my.csdn.net/uploads/201303/22/1363936932_2949.png" target="_blank" rel="noopener">58</a>: <a href="http://img.my.csdn.net/uploads/201303/22/1363936923_33797]" target="_blank" rel="noopener">http://img.my.csdn.net/uploads/201303/22/1363936923_33797]</a>: <a href="http://img.my.csdn.net/uploads/201303/22/1363936910_4210.png" target="_blank" rel="noopener">http://img.my.csdn.net/uploads/201303/22/1363936910_4210.png</a></p>
+</div><div class="tags"><a href="/tags/Linux/">Linux</a></div><div class="post-nav"><a class="pre" href="/2016/04/17/2016/04/73条日常Linux-shell命令汇总/">73条日常Linux shell命令汇总</a><a class="next" href="/2016/04/10/2016/04/webstorm使用总结/">webstorm常用快捷键</a></div><div id="vcomment"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script><script>var notify = 'false' == true ? true : false;
+var verify = 'false' == true ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'4NjJ6jbVqoqBDLYLHPuI2SEI-gzGzoHsz',
+  appKey:'u44i9DhxyF2GkKLjj8YH9eot',
+  placeholder:'Just so so',
+  avatar:'mm',
+  guest_info:guest_info,
+  pageSize:'10'
+})</script></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="87%" height="80px" src="//music.163.com/outchain/player?type=2&amp;id=16426514&amp;auto=0&amp;height=66"></iframe></div><div class="widget"><form class="search-form" action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" target="_blank"><input type="search" name="word" maxlength="20" placeholder="Search"><input type="hidden" name="si" value="https://gentlenerjack.github.io"><input name="tn" type="hidden" value="bds"><input name="cl" type="hidden" value="3"><input name="ct" type="hidden" value="2097152"><input name="s" type="hidden" value="on"></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Algorithm/">Algorithm</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Back-end/">Back-end</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Build/">Build</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/DataBase/">DataBase</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Designed/">Designed</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Front-End/">Front-End</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo教程/">Hexo教程</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tools/">Tools</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/VCS/">VCS</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/优质文章分享/">优质文章分享</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端分享/">前端分享</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端周刊/">前端周刊</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/好文分享/">好文分享</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/工欲善其事必先利其器/">工欲善其事必先利其器</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/Travis-CI/" style="font-size: 15px;">Travis CI</a> <a href="/tags/CSS/" style="font-size: 15px;">CSS</a> <a href="/tags/python/" style="font-size: 15px;">python</a> <a href="/tags/Linux/" style="font-size: 15px;">Linux</a> <a href="/tags/webstorm/" style="font-size: 15px;">webstorm</a> <a href="/tags/sublime/" style="font-size: 15px;">sublime</a> <a href="/tags/GitHub/" style="font-size: 15px;">GitHub</a> <a href="/tags/Vim/" style="font-size: 15px;">Vim</a> <a href="/tags/Tools/" style="font-size: 15px;">Tools</a> <a href="/tags/XHTML/" style="font-size: 15px;">XHTML</a> <a href="/tags/速查表/" style="font-size: 15px;">速查表</a> <a href="/tags/Mysql/" style="font-size: 15px;">Mysql</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/Ubuntu/" style="font-size: 15px;">Ubuntu</a> <a href="/tags/Javascript/" style="font-size: 15px;">Javascript</a> <a href="/tags/SVN/" style="font-size: 15px;">SVN</a> <a href="/tags/jQuery/" style="font-size: 15px;">jQuery</a> <a href="/tags/正则表达式/" style="font-size: 15px;">正则表达式</a> <a href="/tags/PS/" style="font-size: 15px;">PS</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/Snippet/" style="font-size: 15px;">Snippet</a> <a href="/tags/设计/" style="font-size: 15px;">设计</a> <a href="/tags/居中/" style="font-size: 15px;">居中</a> <a href="/tags/HTML5/" style="font-size: 15px;">HTML5</a> <a href="/tags/Canvas/" style="font-size: 15px;">Canvas</a> <a href="/tags/PHP/" style="font-size: 15px;">PHP</a> <a href="/tags/数组/" style="font-size: 15px;">数组</a> <a href="/tags/继承/" style="font-size: 15px;">继承</a> <a href="/tags/事件/" style="font-size: 15px;">事件</a> <a href="/tags/面向对象/" style="font-size: 15px;">面向对象</a> <a href="/tags/MVC/" style="font-size: 15px;">MVC</a> <a href="/tags/原型链/" style="font-size: 15px;">原型链</a> <a href="/tags/DOM/" style="font-size: 15px;">DOM</a> <a href="/tags/作用域/" style="font-size: 15px;">作用域</a> <a href="/tags/ES6/" style="font-size: 15px;">ES6</a> <a href="/tags/webpack/" style="font-size: 15px;">webpack</a> <a href="/tags/弹性布局/" style="font-size: 15px;">弹性布局</a> <a href="/tags/VS/" style="font-size: 15px;">VS</a> <a href="/tags/闭包/" style="font-size: 15px;">闭包</a> <a href="/tags/Node/" style="font-size: 15px;">Node</a> <a href="/tags/部署/" style="font-size: 15px;">部署</a> <a href="/tags/移动端/" style="font-size: 15px;">移动端</a> <a href="/tags/Git/" style="font-size: 15px;">Git</a> <a href="/tags/Nginx/" style="font-size: 15px;">Nginx</a> <a href="/tags/跨域/" style="font-size: 15px;">跨域</a> <a href="/tags/读书笔记/" style="font-size: 15px;">读书笔记</a> <a href="/tags/高阶函数/" style="font-size: 15px;">高阶函数</a> <a href="/tags/Axios/" style="font-size: 15px;">Axios</a> <a href="/tags/React/" style="font-size: 15px;">React</a> <a href="/tags/RESTful-API/" style="font-size: 15px;">RESTful API</a> <a href="/tags/测试/" style="font-size: 15px;">测试</a> <a href="/tags/bootstrap/" style="font-size: 15px;">bootstrap</a> <a href="/tags/调试/" style="font-size: 15px;">调试</a> <a href="/tags/Fiddler/" style="font-size: 15px;">Fiddler</a> <a href="/tags/editconfig/" style="font-size: 15px;">editconfig</a> <a href="/tags/Echart/" style="font-size: 15px;">Echart</a> <a href="/tags/适配/" style="font-size: 15px;">适配</a> <a href="/tags/HTTP/" style="font-size: 15px;">HTTP</a> <a href="/tags/前端规范/" style="font-size: 15px;">前端规范</a> <a href="/tags/VS-Code/" style="font-size: 15px;">VS Code</a> <a href="/tags/npm/" style="font-size: 15px;">npm</a> <a href="/tags/Vue/" style="font-size: 15px;">Vue</a> <a href="/tags/angular/" style="font-size: 15px;">angular</a> <a href="/tags/踩过的坑/" style="font-size: 15px;">踩过的坑</a> <a href="/tags/elementUI/" style="font-size: 15px;">elementUI</a> <a href="/tags/组件通信/" style="font-size: 15px;">组件通信</a> <a href="/tags/vue/" style="font-size: 15px;">vue</a> <a href="/tags/Immutable/" style="font-size: 15px;">Immutable</a> <a href="/tags/API/" style="font-size: 15px;">API</a> <a href="/tags/小程序/" style="font-size: 15px;">小程序</a> <a href="/tags/redux/" style="font-size: 15px;">redux</a> <a href="/tags/js代码片段/" style="font-size: 15px;">js代码片段</a> <a href="/tags/node/" style="font-size: 15px;">node</a> <a href="/tags/优质文章分享/" style="font-size: 15px;">优质文章分享</a> <a href="/tags/Taro/" style="font-size: 15px;">Taro</a> <a href="/tags/前端周刊/" style="font-size: 15px;">前端周刊</a> <a href="/tags/html5/" style="font-size: 15px;">html5</a> <a href="/tags/前端自动化/" style="font-size: 15px;">前端自动化</a> <a href="/tags/Ajax/" style="font-size: 15px;">Ajax</a> <a href="/tags/Fetch/" style="font-size: 15px;">Fetch</a> <a href="/tags/面试/" style="font-size: 15px;">面试</a> <a href="/tags/组件化/" style="font-size: 15px;">组件化</a> <a href="/tags/MVVM/" style="font-size: 15px;">MVVM</a> <a href="/tags/Hybird/" style="font-size: 15px;">Hybird</a> <a href="/tags/虚拟DOM/" style="font-size: 15px;">虚拟DOM</a> <a href="/tags/Deferred/" style="font-size: 15px;">Deferred</a> <a href="/tags/Vuex/" style="font-size: 15px;">Vuex</a> <a href="/tags/react/" style="font-size: 15px;">react</a> <a href="/tags/微信开发/" style="font-size: 15px;">微信开发</a> <a href="/tags/cookie/" style="font-size: 15px;">cookie</a> <a href="/tags/ajax/" style="font-size: 15px;">ajax</a> <a href="/tags/Atom/" style="font-size: 15px;">Atom</a> <a href="/tags/Emmet/" style="font-size: 15px;">Emmet</a> <a href="/tags/gulp/" style="font-size: 15px;">gulp</a> <a href="/tags/video/" style="font-size: 15px;">video</a> <a href="/tags/MobX/" style="font-size: 15px;">MobX</a> <a href="/tags/csshack/" style="font-size: 15px;">csshack</a> <a href="/tags/异步回调/" style="font-size: 15px;">异步回调</a> <a href="/tags/eslint/" style="font-size: 15px;">eslint</a> <a href="/tags/性能优化/" style="font-size: 15px;">性能优化</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/10/27/2018/10/vue生命周期和react生命周期对比/">vue生命周期和react生命周期对比</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/26/2018/10/js深度拷贝解决双向绑定问题-包含es6方法/">js深度拷贝解决双向绑定问题(包含es6方法)</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/26/2018/10/ajax和fetch、axios的优缺点以及比较/">ajax和fetch、axios的优缺点以及比较</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/22/2018/10/关于数组中forEach-、map-、filter-、reduce-、some-、every-的总结/">关于数组中forEach() 、map()、filter()、reduce()、some()、every()的总结</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/22/2018/10/跨域问题携带cookie加入withCredentials报错原因以及解决方案/">跨域问题携带cookie加入withCredentials报错原因以及解决方案</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/22/2018/10/输入框input类型为number时，去掉上下箭头方式/">输入框input类型为number时，去掉上下箭头样式</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/21/2018/10/fe-interview-hybrid/">前端面试之hybrid</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/21/2018/10/fe-interview-component/">前端面试之组件化</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/21/2018/10/fe-interview-mvvm/">前端面试之MVVM浅析</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/20/2018/10/vdom-improve/">虚拟DOM（二）</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.borscon.com/" title="borscon" target="_blank">borscon</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2018 <a href="/." rel="nofollow">勿忘初心.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>

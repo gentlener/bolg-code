@@ -1,0 +1,192 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta name="generator" content="Hexo 3.8.0"><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta content="xyR3o2cKfa" name="baidu-site-verification"><meta name="description" content="这是jack的博客的第一次尝试"><title>Emmet：HTML/CSS代码快速编写神器 | 勿忘初心</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/8.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Emmet：HTML/CSS代码快速编写神器</h1><a id="logo" href="/.">勿忘初心</a><p class="description">既然已匆匆,不如早怀念</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/JackSaying/"><i class="fa fa-tag"> 点滴</i></a><a href="/movies/"><i class="fa fa-film"> 电影</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Emmet：HTML/CSS代码快速编写神器</h1><div class="post-meta">Mar 14, 2016<span> | </span><span class="category"><a href="/categories/Front-End/">Front-End</a></span></div><a class="disqus-comment-count" href="/2016/03/14/2018/01/Emmet：HTML-CSS代码快速编写神器/#vcomment"><span class="valine-comment-count" data-xid="/2016/03/14/2018/01/Emmet：HTML-CSS代码快速编写神器/"></span><span> 条评论</span></a><div class="post-content"><ul>
+<li><a href="http://www.w3cplus.com/tools/emmet-cheat-sheet.html" target="_blank" rel="noopener">前端开发必备！Emmet使用手册</a><a id="more"></a></li>
+<li>Emmet的前身是大名鼎鼎的<code>Zen coding</code>，如果你从事<code>Web</code>前端开发的话，对该插件一定不会陌生。它使用仿<code>CSS</code>选择器的语法来生成代码，大大提高了<code>HTML/CSS</code>代码编写的速度，比如下面的演示： </li>
+</ul>
+<p><img src="http://dl.iteye.com/upload/attachment/0083/2327/301ff5c9-3604-3dd3-a206-6d3516861ec4.jpg" alt="此处输入图片的描述"></p>
+<ul>
+<li>该插件已经改名为Emmet。但Emmet不只改名，还带来了一些新特性。</li>
+</ul>
+<h3 id="快速编写HTML代码"><a href="#快速编写HTML代码" class="headerlink" title="快速编写HTML代码"></a>快速编写HTML代码</h3><hr>
+<h4 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h4><hr>
+<ul>
+<li>HTML文档需要包含一些固定的标签，比如<code>&lt;html&gt;</code>、<code>&lt;head&gt;</code>、<code>&lt;body&gt;</code>等，现在你只需要1秒钟就可以输入这些标签。比如输入<code>“!”</code>或<code>“html:5”</code>，然后按<code>Tab</code>键：</li>
+</ul>
+<p><img src="http://dl.iteye.com/upload/attachment/0083/2329/0070e820-1cbf-3f42-8c5b-838e5774d02b.gif" alt="此处输入图片的描述"></p>
+<ul>
+<li><code>html:5</code> 或!：用于<code>HTML5</code>文档类型</li>
+<li><code>html:xt</code>：用于XHTML过渡文档类型</li>
+<li><code>html:4s</code>：用于HTML4严格文档类型</li>
+</ul>
+<ul>
+<li>连续输入元素名称和<code>ID</code>，<code>Emmet</code>会自动为你补全，比如输入<code>p#foo</code>： </li>
+</ul>
+<p><img src="http://dl.iteye.com/upload/attachment/0083/2331/cb250aef-3b60-3297-86ba-8c3ed36cacad.gif" alt="此处输入图片的描述"></p>
+<ul>
+<li>连续输入类和<code>id</code>，比如<code>p.bar#foo</code>，会自动生成：<code>Html</code>代码 <code>&lt;p class=&quot;bar&quot; id=&quot;foo&quot;&gt;&lt;/p&gt;</code></li>
+</ul>
+<p>下面来看看如何定义HTML元素的内容和属性。你可以通过输入h1{foo}和a[href=#]，就可以自动生成如下代码：</p>
+<p><code>&lt;h1&gt;foo&lt;/h1&gt;</code><br><code>&lt;a href=&quot;#&quot;&gt;&lt;/a&gt;</code>  </p>
+<p><img src="http://dl.iteye.com/upload/attachment/0083/2333/167e1956-4ac6-3b6d-9025-8bf90fee1250.gif" alt="此处输入图片的描述"></p>
+<h4 id="嵌套"><a href="#嵌套" class="headerlink" title="嵌套"></a>嵌套</h4><hr>
+<ul>
+<li>现在你只需要1行代码就可以实现标签的嵌套。 <ul>
+<li><code>&gt;</code>：子元素符号，表示嵌套的元素</li>
+<li><code>+</code>：同级标签符号</li>
+<li><code>^</code>：可以使该符号前的标签提升一行</li>
+</ul>
+</li>
+</ul>
+<p><img src="http://dl.iteye.com/upload/attachment/0083/2335/47ae82f5-4fd8-36a1-9b4e-d148237537ee.gif" alt="此处输入图片的描述"></p>
+<h4 id="分组"><a href="#分组" class="headerlink" title="分组"></a>分组</h4><hr>
+<ul>
+<li>你可以通过嵌套和括号来快速生成一些代码块，比如输入<code>(.foo&gt;h1)+(.bar&gt;h2)</code>，会自动生成如下代码：</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"foo"</span>&gt;</span>  </span><br><span class="line">    <span class="tag">&lt;<span class="name">h1</span>&gt;</span><span class="tag">&lt;/<span class="name">h1</span>&gt;</span>  </span><br><span class="line"> <span class="tag">&lt;/<span class="name">div</span>&gt;</span>  </span><br><span class="line"> <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"bar"</span>&gt;</span>  </span><br><span class="line">     <span class="tag">&lt;<span class="name">h2</span>&gt;</span><span class="tag">&lt;/<span class="name">h2</span>&gt;</span>  </span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p> <img src="http://dl.iteye.com/upload/attachment/0083/2337/ae3a8b58-244a-3680-9f0c-d0cab459fc41.gif" alt="此处输入图片的描述"></p>
+<h4 id="隐式标签"><a href="#隐式标签" class="headerlink" title="隐式标签"></a>隐式标签</h4><hr>
+<ul>
+<li><p>声明一个带类的标签，只需输入<code>div.item</code>，就会生成<code>&lt;div class=&quot;item&quot;&gt;&lt;/div&gt;</code></p>
+</li>
+<li><p>在过去版本中，可以省略掉div，即输入<code>.item</code>即可生成<code>&lt;div class=&quot;item&quot;&gt;&lt;/div&gt;</code>。现在如果只输入<code>.item</code>，则<code>Emmet</code>会根据父标签进行判定。比如在<code>&lt;ul&gt;</code>中输入<code>.item</code>，就会生成<code>&lt;li class=&quot;item&quot;&gt;&lt;/li&gt;</code>。 </p>
+</li>
+</ul>
+<p><img src="http://dl.iteye.com/upload/attachment/0083/2339/363af658-650f-38d1-ad0e-9608df9d2873.gif" alt="此处输入图片的描述"></p>
+<ul>
+<li>下面是所有的隐式标签名称：<ul>
+<li><code>li</code>：用于<code>ul</code>和<code>ol</code>中</li>
+<li><code>tr</code>：用于table、tbody、thead和tfoot中</li>
+<li><code>td</code>：用于<code>tr</code>中</li>
+<li><code>option</code>：用于<code>select</code>和<code>optgroup</code>中</li>
+</ul>
+</li>
+</ul>
+<h4 id="定义多个元素"><a href="#定义多个元素" class="headerlink" title="定义多个元素"></a>定义多个元素</h4><hr>
+<ul>
+<li>要定义多个元素，可以使用<code>*</code>符号。比如，<code>ul&gt;li*3</code>可以生成如下代码：</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span> </span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p><img src="http://dl.iteye.com/upload/attachment/0083/2341/cf5613ac-4198-326e-a651-a08ad206800a.gif" alt="此处输入图片的描述"></p>
+<h4 id="定义多个带属性的元素"><a href="#定义多个带属性的元素" class="headerlink" title="定义多个带属性的元素"></a>定义多个带属性的元素</h4><hr>
+<ul>
+<li>如果输入 <code>ul&gt;li.item$*3</code>，将会生成如下代码： </li>
+</ul>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span>  </span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"item1"</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span>  </span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"item2"</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span>  </span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"item3"</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p><img src="http://dl.iteye.com/upload/attachment/0083/2343/a1c5f9d8-d187-3bde-895b-2e14fb428184.gif" alt="此处输入图片的描述"></p>
+<h3 id="CSS缩写"><a href="#CSS缩写" class="headerlink" title="CSS缩写"></a>CSS缩写</h3><hr>
+<h4 id="值"><a href="#值" class="headerlink" title="值"></a>值</h4><hr>
+<ul>
+<li>比如要定义元素的宽度，只需输入<code>w100</code>，即可生成 <code>width: 100px;</code>  </li>
+</ul>
+<p><img src="http://dl.iteye.com/upload/attachment/0083/2345/21a47a7c-2d38-3231-8b4b-7d15f38be57a.gif" alt="此处输入图片的描述"></p>
+<ul>
+<li>除了<code>px</code>，也可以生成其他单位，比如输入<code>h10p+m5e</code>，结果如下：<ul>
+<li><code>height: 10%</code>;  </li>
+<li><code>margin: 5em</code>; </li>
+</ul>
+</li>
+<li>单位别名列表：<ul>
+<li><code>p</code> 表示<code>%</code></li>
+<li><code>e</code> 表示 <code>em</code></li>
+<li><code>x</code> 表示 <code>ex</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="附加属性"><a href="#附加属性" class="headerlink" title="附加属性"></a>附加属性</h4><hr>
+<ul>
+<li>可能你之前已经了解了一些缩写，比如 <code>@f</code>，可以生成：</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">font-face</span> &#123; </span><br><span class="line"><span class="attribute">font-family</span>:; </span><br><span class="line">  <span class="attribute">src</span>:<span class="built_in">url</span>();  </span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<p>一些其他的属性，比如<code>background-image</code>、<code>border-radius</code>、<code>font</code>、<code>@font-face</code>,<code>text-outline</code>、<code>text-shadow</code>等额外的选项，可以通过<code>“+”</code>符号来生成，比如输入<code>@f+</code>，将生成： </p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">@<span class="keyword">font-face</span> &#123;  </span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">'FontName'</span>;  </span><br><span class="line">  <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">'FileName.eot'</span>);  </span><br><span class="line">  <span class="attribute">src</span>: <span class="built_in">url</span>(<span class="string">'FileName.eot?#iefix'</span>) <span class="built_in">format</span>(<span class="string">'embedded-opentype'</span>), <span class="built_in">url</span>(<span class="string">'FileName.woff'</span>) <span class="built_in">format</span>(<span class="string">'woff'</span>),  </span><br><span class="line">       <span class="built_in">url</span>(<span class="string">'FileName.ttf'</span>) <span class="built_in">format</span>(<span class="string">'truetype'</span>),  </span><br><span class="line">       <span class="built_in">url</span>(<span class="string">'FileName.svg#FontName'</span>) <span class="built_in">format</span>(<span class="string">'svg'</span>);  </span><br><span class="line">   <span class="attribute">font-style</span>: normal;  </span><br><span class="line">   <span class="attribute">font-weight</span>: normal;  </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="http://dl.iteye.com/upload/attachment/0083/2347/2c8cccf4-be54-3190-b1e7-3713717e2a78.gif" alt="此处输入图片的描述"></p>
+<h4 id="模糊匹配"><a href="#模糊匹配" class="headerlink" title="模糊匹配"></a>模糊匹配</h4><hr>
+<ul>
+<li><p>如果有些缩写你拿不准，<code>Emmet</code>会根据你的输入内容匹配最接近的语法，比如输入<code>ov:h</code>、<code>ov-h</code>、<code>ov</code>h和<code>oh</code>，生成的代码是相同的：<br><code>overflow: hidden</code>;</p>
+<p><img src="http://dl.iteye.com/upload/attachment/0083/2349/4c2c81e2-ebba-367e-a4fd-4f667d08ca84.gif" alt="此处输入图片的描述"></p>
+</li>
+</ul>
+<h4 id="供应商前缀"><a href="#供应商前缀" class="headerlink" title="供应商前缀"></a>供应商前缀</h4><hr>
+<ul>
+<li>如果输入非<code>W3C</code>标准的<code>CSS</code>属性，<code>Emmet</code>会自动加上供应商前缀，比如输入<code>trs</code>，则会生成： </li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">-webkit-transform</span>: ; </span><br><span class="line"><span class="selector-tag">-moz-transform</span>: ;  </span><br><span class="line"><span class="selector-tag">-ms-transform</span>: ;  </span><br><span class="line"><span class="selector-tag">-o-transform</span>: ;  </span><br><span class="line"><span class="selector-tag">transform</span>: ;</span><br></pre></td></tr></table></figure>
+<p> <img src="http://dl.iteye.com/upload/attachment/0083/2351/a68eda57-f573-343c-81b8-19e0a48c08fe.gif" alt="此处输入图片的描述"></p>
+<ul>
+<li>你也可以在任意属性前加上<code>“-”</code>符号，也可以为该属性加上前缀。比如输入<code>-super-foo</code>：</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">-webkit-super-foo</span>: ;  </span><br><span class="line"><span class="selector-tag">-moz-super-foo</span>: ;  </span><br><span class="line"><span class="selector-tag">-ms-super-foo</span>: ;  </span><br><span class="line"><span class="selector-tag">-o-super-foo</span>: ; </span><br><span class="line"><span class="selector-tag">super-foo</span>: ;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>如果不希望加上所有前缀，可以使用缩写来指定，比如<code>-wm-trf</code>表示只加上<code>-webkit</code>和<code>-moz</code>前缀：</li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">-webkit-transform</span>: ;  </span><br><span class="line"><span class="selector-tag">-moz-transform</span>: ;  </span><br><span class="line"><span class="selector-tag">transform</span>: ;</span><br></pre></td></tr></table></figure>
+<h4 id="前缀缩写如下："><a href="#前缀缩写如下：" class="headerlink" title="前缀缩写如下："></a>前缀缩写如下：</h4><hr>
+<ul>
+<li><code>w</code> 表示 <code>-webkit-</code></li>
+<li><code>m</code>表示 <code>-moz-</code></li>
+<li><code>s</code> 表示 <code>-ms-</code></li>
+<li><code>o</code> 表示 <code>-o-</code></li>
+</ul>
+<h4 id="渐变"><a href="#渐变" class="headerlink" title="渐变"></a>渐变</h4><hr>
+<ul>
+<li>输入<code>lg(left, #fff 50%, #000)</code>，会生成如下代码： </li>
+</ul>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">background-image</span>: <span class="selector-tag">-webkit-gradient</span>(<span class="selector-tag">linear</span>, 0 0, 100% 0, <span class="selector-tag">color-stop</span>(0<span class="selector-class">.5</span>, <span class="selector-id">#fff</span>), <span class="selector-tag">to</span>(<span class="selector-id">#000</span>));</span><br><span class="line"><span class="selector-tag">background-image</span>: <span class="selector-tag">-webkit-linear-gradient</span>(<span class="selector-tag">left</span>, <span class="selector-id">#fff</span> 50%, <span class="selector-id">#000</span>);</span><br><span class="line"><span class="selector-tag">background-image</span>: <span class="selector-tag">-moz-linear-gradient</span>(<span class="selector-tag">left</span>, <span class="selector-id">#fff</span> 50%, <span class="selector-id">#000</span>);</span><br><span class="line"><span class="selector-tag">background-image</span>: <span class="selector-tag">-o-linear-gradient</span>(<span class="selector-tag">left</span>, <span class="selector-id">#fff</span> 50%, <span class="selector-id">#000</span>);</span><br><span class="line"><span class="selector-tag">background-image</span>: <span class="selector-tag">linear-gradient</span>(<span class="selector-tag">left</span>, <span class="selector-id">#fff</span> 50%, <span class="selector-id">#000</span>);</span><br></pre></td></tr></table></figure>
+<p><img src="http://dl.iteye.com/upload/attachment/0083/2353/f39213f9-5d68-3728-8cf3-7964aaa02bae.gif" alt="此处输入图片的描述"></p>
+<h3 id="附加功能"><a href="#附加功能" class="headerlink" title="附加功能"></a>附加功能</h3><hr>
+<h4 id="生成Lorem-ipsum文本"><a href="#生成Lorem-ipsum文本" class="headerlink" title="生成Lorem ipsum文本"></a>生成Lorem ipsum文本</h4><hr>
+<ul>
+<li>引用 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero delectus.</li>
+</ul>
+<p><img src="http://dl.iteye.com/upload/attachment/0083/2355/87a3d500-1798-3050-b7e0-df51c94bd203.gif" alt="此处输入图片的描述"></p>
+<h3 id="定制"><a href="#定制" class="headerlink" title="定制"></a>定制</h3><hr>
+<ul>
+<li>你还可以定制Emmet插件： <ul>
+<li>添加新缩写或更新现有缩写，可修改<code>[snippets.json][16]</code>文件</li>
+<li>更改<code>Emmet</code>过滤器和操作的行为，可修改<code>[preferences.json][17]</code>文件</li>
+<li>定义如何生成<code>HTML</code>或<code>XML</code>代码，可修改<code>[syntaxProfiles.json][18]</code>文件</li>
+</ul>
+</li>
+</ul>
+<h3 id="针对不同编辑器的插件"><a href="#针对不同编辑器的插件" class="headerlink" title="针对不同编辑器的插件*"></a>针对不同编辑器的插件*</h3><hr>
+<ul>
+<li>Emmet支持的编辑器如下（链接为针对该编辑器的<code>Emmet</code>插件）： <ul>
+<li><a href="https://github.com/sergeche/emmet-sublime" target="_blank" rel="noopener">Sublime Text 2</a></li>
+<li><a href="https://github.com/emmetio/Emmet.tmplugin" target="_blank" rel="noopener">TextMate 1.x</a></li>
+<li><a href="https://github.com/emmetio/emmet-eclipse" target="_blank" rel="noopener">Eclipse/Aptana</a></li>
+<li><a href="https://github.com/emmetio/Emmet.codaplugin" target="_blank" rel="noopener">Coda 1.6 and 2.x</a></li>
+<li><a href="https://github.com/emmetio/Emmet.sugar" target="_blank" rel="noopener">Espresso</a></li>
+<li><a href="https://github.com/sergeche/emmet.chocmixin" target="_blank" rel="noopener">Chocolat （通过“Install Mixin”对话框添加)</a></li>
+<li><a href="https://github.com/emmetio/emmet/downloads" target="_blank" rel="noopener">Komodo Edit/IDE</a> （通过Tools → Add-ons菜单添加)</li>
+<li><a href="https://github.com/emmetio/emmet/downloads" target="_blank" rel="noopener">Notepad++</a></li>
+<li><a href="https://github.com/emmetio/emmet/downloads" target="_blank" rel="noopener">PSPad</a></li>
+<li><a href="https://github.com/emmetio/emmet/downloads" target="_blank" rel="noopener">textarea</a></li>
+<li><a href="https://github.com/emmetio/codemirror" target="_blank" rel="noopener">CodeMirror2/3</a></li>
+<li><a href="https://github.com/emmetio/brackets-emmet" target="_blank" rel="noopener">Brackets</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="Emmet官网文档："><a href="#Emmet官网文档：" class="headerlink" title="Emmet官网文档："></a>Emmet官网文档：</h3><hr>
+<ul>
+<li><a href="http://emmet.io/download/" target="_blank" rel="noopener">emmet插件下载中心</a></li>
+<li><a href="https://github.com/emmetio/emmet" target="_blank" rel="noopener">GitHub主页</a></li>
+<li><a href="http://docs.emmet.io/cheat-sheet/" target="_blank" rel="noopener">emmet快捷键表</a></li>
+<li><a href="http://docs.emmet.ioio/cheat-sheet/" target="_blank" rel="noopener">emmet文档</a></li>
+</ul>
+</div><div class="tags"><a href="/tags/Emmet/">Emmet</a></div><div class="post-nav"><a class="pre" href="/2016/03/14/2016/03/各种速查表收集整理/">各种速查表收集整理</a><a class="next" href="/2016/03/14/2016/03/Sublime使用详细总结/">Sublime使用详细总结</a></div><div id="vcomment"></div><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script><script>var notify = 'false' == true ? true : false;
+var verify = 'false' == true ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'4NjJ6jbVqoqBDLYLHPuI2SEI-gzGzoHsz',
+  appKey:'u44i9DhxyF2GkKLjj8YH9eot',
+  placeholder:'Just so so',
+  avatar:'mm',
+  guest_info:guest_info,
+  pageSize:'10'
+})</script></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="87%" height="80px" src="//music.163.com/outchain/player?type=2&amp;id=16426514&amp;auto=0&amp;height=66"></iframe></div><div class="widget"><form class="search-form" action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" target="_blank"><input type="search" name="word" maxlength="20" placeholder="Search"><input type="hidden" name="si" value="https://gentlenerjack.github.io"><input name="tn" type="hidden" value="bds"><input name="cl" type="hidden" value="3"><input name="ct" type="hidden" value="2097152"><input name="s" type="hidden" value="on"></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Algorithm/">Algorithm</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Back-end/">Back-end</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Build/">Build</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/DataBase/">DataBase</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Designed/">Designed</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Front-End/">Front-End</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo教程/">Hexo教程</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Tools/">Tools</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/VCS/">VCS</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/优质文章分享/">优质文章分享</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端/">前端</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端分享/">前端分享</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/前端周刊/">前端周刊</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/好文分享/">好文分享</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/工欲善其事必先利其器/">工欲善其事必先利其器</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/Travis-CI/" style="font-size: 15px;">Travis CI</a> <a href="/tags/CSS/" style="font-size: 15px;">CSS</a> <a href="/tags/python/" style="font-size: 15px;">python</a> <a href="/tags/Linux/" style="font-size: 15px;">Linux</a> <a href="/tags/webstorm/" style="font-size: 15px;">webstorm</a> <a href="/tags/sublime/" style="font-size: 15px;">sublime</a> <a href="/tags/GitHub/" style="font-size: 15px;">GitHub</a> <a href="/tags/Vim/" style="font-size: 15px;">Vim</a> <a href="/tags/Tools/" style="font-size: 15px;">Tools</a> <a href="/tags/XHTML/" style="font-size: 15px;">XHTML</a> <a href="/tags/速查表/" style="font-size: 15px;">速查表</a> <a href="/tags/Mysql/" style="font-size: 15px;">Mysql</a> <a href="/tags/Hexo/" style="font-size: 15px;">Hexo</a> <a href="/tags/Ubuntu/" style="font-size: 15px;">Ubuntu</a> <a href="/tags/Javascript/" style="font-size: 15px;">Javascript</a> <a href="/tags/SVN/" style="font-size: 15px;">SVN</a> <a href="/tags/jQuery/" style="font-size: 15px;">jQuery</a> <a href="/tags/正则表达式/" style="font-size: 15px;">正则表达式</a> <a href="/tags/PS/" style="font-size: 15px;">PS</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/Snippet/" style="font-size: 15px;">Snippet</a> <a href="/tags/设计/" style="font-size: 15px;">设计</a> <a href="/tags/居中/" style="font-size: 15px;">居中</a> <a href="/tags/HTML5/" style="font-size: 15px;">HTML5</a> <a href="/tags/Canvas/" style="font-size: 15px;">Canvas</a> <a href="/tags/PHP/" style="font-size: 15px;">PHP</a> <a href="/tags/数组/" style="font-size: 15px;">数组</a> <a href="/tags/继承/" style="font-size: 15px;">继承</a> <a href="/tags/事件/" style="font-size: 15px;">事件</a> <a href="/tags/面向对象/" style="font-size: 15px;">面向对象</a> <a href="/tags/MVC/" style="font-size: 15px;">MVC</a> <a href="/tags/原型链/" style="font-size: 15px;">原型链</a> <a href="/tags/DOM/" style="font-size: 15px;">DOM</a> <a href="/tags/作用域/" style="font-size: 15px;">作用域</a> <a href="/tags/ES6/" style="font-size: 15px;">ES6</a> <a href="/tags/webpack/" style="font-size: 15px;">webpack</a> <a href="/tags/弹性布局/" style="font-size: 15px;">弹性布局</a> <a href="/tags/VS/" style="font-size: 15px;">VS</a> <a href="/tags/闭包/" style="font-size: 15px;">闭包</a> <a href="/tags/Node/" style="font-size: 15px;">Node</a> <a href="/tags/部署/" style="font-size: 15px;">部署</a> <a href="/tags/移动端/" style="font-size: 15px;">移动端</a> <a href="/tags/Git/" style="font-size: 15px;">Git</a> <a href="/tags/Nginx/" style="font-size: 15px;">Nginx</a> <a href="/tags/跨域/" style="font-size: 15px;">跨域</a> <a href="/tags/读书笔记/" style="font-size: 15px;">读书笔记</a> <a href="/tags/高阶函数/" style="font-size: 15px;">高阶函数</a> <a href="/tags/Axios/" style="font-size: 15px;">Axios</a> <a href="/tags/React/" style="font-size: 15px;">React</a> <a href="/tags/RESTful-API/" style="font-size: 15px;">RESTful API</a> <a href="/tags/测试/" style="font-size: 15px;">测试</a> <a href="/tags/bootstrap/" style="font-size: 15px;">bootstrap</a> <a href="/tags/调试/" style="font-size: 15px;">调试</a> <a href="/tags/Fiddler/" style="font-size: 15px;">Fiddler</a> <a href="/tags/editconfig/" style="font-size: 15px;">editconfig</a> <a href="/tags/Echart/" style="font-size: 15px;">Echart</a> <a href="/tags/适配/" style="font-size: 15px;">适配</a> <a href="/tags/HTTP/" style="font-size: 15px;">HTTP</a> <a href="/tags/前端规范/" style="font-size: 15px;">前端规范</a> <a href="/tags/VS-Code/" style="font-size: 15px;">VS Code</a> <a href="/tags/npm/" style="font-size: 15px;">npm</a> <a href="/tags/Vue/" style="font-size: 15px;">Vue</a> <a href="/tags/angular/" style="font-size: 15px;">angular</a> <a href="/tags/踩过的坑/" style="font-size: 15px;">踩过的坑</a> <a href="/tags/elementUI/" style="font-size: 15px;">elementUI</a> <a href="/tags/组件通信/" style="font-size: 15px;">组件通信</a> <a href="/tags/vue/" style="font-size: 15px;">vue</a> <a href="/tags/Immutable/" style="font-size: 15px;">Immutable</a> <a href="/tags/API/" style="font-size: 15px;">API</a> <a href="/tags/小程序/" style="font-size: 15px;">小程序</a> <a href="/tags/redux/" style="font-size: 15px;">redux</a> <a href="/tags/js代码片段/" style="font-size: 15px;">js代码片段</a> <a href="/tags/node/" style="font-size: 15px;">node</a> <a href="/tags/优质文章分享/" style="font-size: 15px;">优质文章分享</a> <a href="/tags/Taro/" style="font-size: 15px;">Taro</a> <a href="/tags/前端周刊/" style="font-size: 15px;">前端周刊</a> <a href="/tags/html5/" style="font-size: 15px;">html5</a> <a href="/tags/前端自动化/" style="font-size: 15px;">前端自动化</a> <a href="/tags/Ajax/" style="font-size: 15px;">Ajax</a> <a href="/tags/Fetch/" style="font-size: 15px;">Fetch</a> <a href="/tags/面试/" style="font-size: 15px;">面试</a> <a href="/tags/组件化/" style="font-size: 15px;">组件化</a> <a href="/tags/MVVM/" style="font-size: 15px;">MVVM</a> <a href="/tags/Hybird/" style="font-size: 15px;">Hybird</a> <a href="/tags/虚拟DOM/" style="font-size: 15px;">虚拟DOM</a> <a href="/tags/Deferred/" style="font-size: 15px;">Deferred</a> <a href="/tags/Vuex/" style="font-size: 15px;">Vuex</a> <a href="/tags/react/" style="font-size: 15px;">react</a> <a href="/tags/微信开发/" style="font-size: 15px;">微信开发</a> <a href="/tags/cookie/" style="font-size: 15px;">cookie</a> <a href="/tags/ajax/" style="font-size: 15px;">ajax</a> <a href="/tags/Atom/" style="font-size: 15px;">Atom</a> <a href="/tags/Emmet/" style="font-size: 15px;">Emmet</a> <a href="/tags/gulp/" style="font-size: 15px;">gulp</a> <a href="/tags/video/" style="font-size: 15px;">video</a> <a href="/tags/MobX/" style="font-size: 15px;">MobX</a> <a href="/tags/csshack/" style="font-size: 15px;">csshack</a> <a href="/tags/异步回调/" style="font-size: 15px;">异步回调</a> <a href="/tags/eslint/" style="font-size: 15px;">eslint</a> <a href="/tags/性能优化/" style="font-size: 15px;">性能优化</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/10/27/2018/10/vue生命周期和react生命周期对比/">vue生命周期和react生命周期对比</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/26/2018/10/js深度拷贝解决双向绑定问题-包含es6方法/">js深度拷贝解决双向绑定问题(包含es6方法)</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/26/2018/10/ajax和fetch、axios的优缺点以及比较/">ajax和fetch、axios的优缺点以及比较</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/22/2018/10/关于数组中forEach-、map-、filter-、reduce-、some-、every-的总结/">关于数组中forEach() 、map()、filter()、reduce()、some()、every()的总结</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/22/2018/10/跨域问题携带cookie加入withCredentials报错原因以及解决方案/">跨域问题携带cookie加入withCredentials报错原因以及解决方案</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/22/2018/10/输入框input类型为number时，去掉上下箭头方式/">输入框input类型为number时，去掉上下箭头样式</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/21/2018/10/fe-interview-hybrid/">前端面试之hybrid</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/21/2018/10/fe-interview-component/">前端面试之组件化</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/21/2018/10/fe-interview-mvvm/">前端面试之MVVM浅析</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/20/2018/10/vdom-improve/">虚拟DOM（二）</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="http://www.borscon.com/" title="borscon" target="_blank">borscon</a><ul></ul><a href="http://www.example2.com/" title="site-name2" target="_blank">site-name2</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2018 <a href="/." rel="nofollow">勿忘初心.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.3.5/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
