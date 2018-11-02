@@ -29,8 +29,8 @@ https://gentlenerjack.github.io/2018/09/10/2018/09/reactjs中事件传参-关于
 https://gentlenerjack.github.io/2018/09/10/2018/09/ES6-基础-【好文分享】/
 https://gentlenerjack.github.io/2018/09/07/2018/09/umi-dva/
 https://gentlenerjack.github.io/2018/09/07/2018/09/NodeJS连接MySQL时遇到的问题 Error Connection lost The server closed the connection/
-https://gentlenerjack.github.io/2018/09/07/2018/09/小邵教你玩转es6/
 https://gentlenerjack.github.io/2018/09/07/2018/09/使用hexo搭建github-io博客/
+https://gentlenerjack.github.io/2018/09/07/2018/09/小邵教你玩转es6/
 https://gentlenerjack.github.io/2018/09/06/2018/09/javascript截取文件名的后缀/
 https://gentlenerjack.github.io/2018/09/05/2018/09/dva/
 https://gentlenerjack.github.io/2018/09/04/2018/09/pwa/
@@ -89,8 +89,8 @@ https://gentlenerjack.github.io/2018/04/10/2018/04/js-reg-review/
 https://gentlenerjack.github.io/2018/03/29/2018/03/emoji表情存储后台报错的问题/
 https://gentlenerjack.github.io/2018/03/22/2018/03/lazyload页面中间有滚动条，滑动鼠标无法触发图片预加载/
 https://gentlenerjack.github.io/2018/02/28/2018/02/nginx-location-match-rules/
-https://gentlenerjack.github.io/2018/02/26/2018/02/http-1/
 https://gentlenerjack.github.io/2018/02/26/2018/02/http-2/
+https://gentlenerjack.github.io/2018/02/26/2018/02/http-1/
 https://gentlenerjack.github.io/2018/02/25/2018/03/vue-mvvm/
 https://gentlenerjack.github.io/2018/02/25/2018/02/nginx-study/
 https://gentlenerjack.github.io/2018/02/25/2018/02/linux-frequently-use-command/
