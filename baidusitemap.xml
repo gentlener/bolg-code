@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://gentlenerjack.github.io/2018/10/27/2018/10/vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%92%8Creact%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%AF%B9%E6%AF%94/</loc>
+    <lastmod>2018-11-02T07:38:52.836Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2018/11/02/%E4%B8%AD%E5%9B%BD%E7%A4%BE%E4%BA%A4%E4%BA%8C%E5%8D%81%E5%B9%B4/</loc>
+    <lastmod>2018-11-02T07:33:47.651Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/02/26/2018/02/http-2/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/05/19/Hexo%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2%E5%BC%95%E7%94%A8%E8%87%AA%E5%B8%A6%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/04/26/npm%E7%BD%91%E9%80%9F%E6%85%A2%E7%94%A8%E6%B7%98%E5%AE%9Dcnpm/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/05/20/Hexo%E5%8D%9A%E5%AE%A2%E4%BB%8E%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E7%A7%BB%E5%8A%A8%E5%88%B0%E5%85%B6%E4%BB%96%E7%94%B5%E8%84%91/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/05/18/git%E7%9A%84%E8%B5%B7%E6%AD%A5%E7%9A%84%E6%93%8D%E4%BD%9C%E6%B5%81%E7%A8%8B/</loc>
@@ -22,16 +19,10 @@
     <loc>https://gentlenerjack.github.io/2017/05/21/webpack-dev-server%E5%BC%80%E5%90%AF%E6%9C%8D%E5%8A%A1%E7%9B%91%E6%B5%8Bjs%E3%80%81HTML%E3%80%81CSS%E5%B9%B6%E8%87%AA%E5%8A%A8%E5%88%B7%E6%96%B0%E7%BD%91%E9%A1%B5%E7%9A%84%E5%A5%97%E8%B7%AF%E8%AF%A6%E7%BB%86%E6%AD%A5%E9%AA%A4%E5%B9%B6%E9%99%84%E4%BB%A3%E7%A0%81/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/04/07/%E4%BD%BF%E7%94%A8autohotkey%E4%BF%AE%E6%94%B9%E6%96%B9%E5%90%91%E9%94%AE%E3%80%81%E5%9B%9E%E8%BD%A6%E5%92%8C%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/03/20/%E4%BB%8E%E4%B8%89%E4%B8%AA%E5%8C%BA%E5%9F%9F%E7%90%86%E8%A7%A3git%E5%91%BD%E4%BB%A4%EF%BC%88%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%89/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/03/25/%E4%B8%80%E4%B8%AA%E5%85%B3%E4%BA%8E%E9%97%AD%E5%8C%85%E3%80%81%E5%9B%9E%E8%B0%83%E5%87%BD%E6%95%B0%E5%92%8C%E5%BC%82%E6%AD%A5%E7%A8%8B%E5%BA%8F%E7%9A%84%E4%BE%8B%E5%AD%90/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/02/22/%E5%88%9D%E5%AD%A6git%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
+    <loc>https://gentlenerjack.github.io/2017/04/07/%E4%BD%BF%E7%94%A8autohotkey%E4%BF%AE%E6%94%B9%E6%96%B9%E5%90%91%E9%94%AE%E3%80%81%E5%9B%9E%E8%BD%A6%E5%92%8C%E5%90%AF%E5%8A%A8%E7%A8%8B%E5%BA%8F/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/06/25/%E4%B8%89%E7%B1%BB%E9%97%AD%E5%8C%85%E5%AE%9E%E4%BE%8B%E7%90%86%E8%A7%A3%E9%97%AD%E5%8C%85%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E5%8D%A0%E7%94%A8%E5%86%85%E5%AD%98/</loc>
@@ -40,73 +31,73 @@
     <loc>https://gentlenerjack.github.io/2017/02/27/%E5%A6%82%E4%BD%95%E5%9C%A8%E7%BD%91%E7%BB%9C%E5%85%AC%E5%85%B1%E5%9C%BA%E5%90%88%E5%8F%91%E5%B8%96%E6%8F%90%E9%97%AE/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/04/20/%E7%94%A8vultr%E5%BB%BA%E7%AB%8B%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/06/25/%E6%A0%88%E5%86%85%E5%AD%98%E3%80%81%E5%A0%86%E5%86%85%E5%AD%98%E5%92%8C%E9%A2%84%E5%A4%84%E7%90%86/</loc>
+    <loc>https://gentlenerjack.github.io/2017/02/22/%E5%88%9D%E5%AD%A6git%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/02/22/%E5%AF%B9angularJS%E4%B8%80%E4%BA%9B%E6%A6%82%E5%BF%B5%E7%9A%84%E7%90%86%E8%A7%A3/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/03/20/%E4%BB%8E%E4%B8%89%E4%B8%AA%E5%8C%BA%E5%9F%9F%E7%90%86%E8%A7%A3git%E5%91%BD%E4%BB%A4%EF%BC%88%E5%9F%BA%E7%A1%80%E7%AF%87%EF%BC%89/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/06/25/%E6%A0%88%E5%86%85%E5%AD%98%E3%80%81%E5%A0%86%E5%86%85%E5%AD%98%E5%92%8C%E9%A2%84%E5%A4%84%E7%90%86/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/04/20/%E7%94%A8vultr%E5%BB%BA%E7%AB%8B%E7%BD%91%E7%AB%99/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/06/28/%E7%BB%83%E4%B9%A0%E7%94%A8%E5%8E%9F%E7%94%9FJavaScript%E7%BC%96%E5%86%99%E4%B8%8EJavaScript%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95slice%E5%8A%9F%E8%83%BD%E4%B8%80%E6%A0%B7%E7%9A%84%E5%87%BD%E6%95%B0/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/05/20/Git%E4%BF%AE%E6%94%B9%E6%9C%80%E5%90%8E%E4%B8%80%E6%AC%A1%E6%8F%90%E4%BA%A4%E7%9A%84%E5%86%85%E5%AE%B9%E7%9A%84%E5%85%B7%E4%BD%93%E6%AD%A5%E9%AA%A4/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/05/19/Hexo%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2%E5%BC%95%E7%94%A8%E8%87%AA%E5%B8%A6%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2015/03/03/2015/03/hello-world/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2015/05/05/2015/05/css%E5%B8%B8%E7%94%A8%E5%B1%9E%E6%80%A7%E6%A2%B3%E7%90%86%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2015/12/05/2015/12/%E6%A0%87%E5%87%86%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B%E5%92%8CIE%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2015/05/25/2015/05/%E6%A2%B3%E7%90%86%E5%B8%B8%E8%A7%81%E7%9A%84CSS%E5%B1%9E%E6%80%A7%EF%BC%88%E4%BA%8C%EF%BC%89/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2015/05/05/2015/05/css%E5%B8%B8%E7%94%A8%E5%B1%9E%E6%80%A7%E6%A2%B3%E7%90%86%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2015/12/14/2015/12/div%E4%BC%81%E4%B8%9A%E5%91%BD%E5%90%8D%E5%8F%82%E8%80%83/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/04/20/2016/04/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/04/17/2016/04/73%E6%9D%A1%E6%97%A5%E5%B8%B8Linux-shell%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/</loc>
+    <loc>https://gentlenerjack.github.io/2016/03/15/2016/03/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%A4%87%E5%BF%98%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2015/12/30/2015/12/%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%E4%B8%8E%E7%9B%B8%E5%AF%B9%E5%AE%9A%E4%BD%8D/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2015/12/05/2015/12/%E6%A0%87%E5%87%86%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B%E5%92%8CIE%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/03/16/2016/03/CSS%E5%9D%97%E7%BA%A7%E5%85%83%E7%B4%A0%E5%92%8C%E8%A1%8C%E5%86%85%E5%85%83%E7%B4%A0/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/04/10/2016/04/webstorm%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/03/03/2016/03/Sublime-Text%E6%B7%BB%E5%8A%A0%E6%8F%92%E5%85%A5%E5%B8%A6%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4%E4%BD%9C%E8%80%85%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/03/15/2016/03/Git%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%A4%87%E5%BF%98%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/03/15/2016/03/Sublime-Text%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86%E7%AF%87/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/03/25/2016/03/Vim%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%88%86%E7%B1%BB/</loc>
+    <loc>https://gentlenerjack.github.io/2016/03/03/2016/03/Sublime-Text%E6%B7%BB%E5%8A%A0%E6%8F%92%E5%85%A5%E5%B8%A6%E5%BD%93%E5%89%8D%E6%97%B6%E9%97%B4%E4%BD%9C%E8%80%85%E8%AF%A6%E7%BB%86%E8%AF%B4%E6%98%8E/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/03/15/2016/03/Vimium%E9%94%AE%E7%9B%98%E6%B5%81%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/03/21/2016/03/Vim%E7%9A%84%E5%88%86%E5%B1%8F%E5%8A%9F%E8%83%BD/</loc>
+    <loc>https://gentlenerjack.github.io/2016/03/25/2016/03/Vim%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%88%86%E7%B1%BB/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/03/15/2016/03/sublime-Text3%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/03/29/2016/03/sublimeText3%E9%85%8D%E7%BD%AE%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A2%84%E8%A7%88%E8%B7%AF%E5%BE%84localhost/</loc>
+    <loc>https://gentlenerjack.github.io/2016/03/15/2016/03/windows%E4%B8%8B%E6%8F%90%E5%8D%87%E6%95%88%E7%8E%87%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6-%E8%BD%AC/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/03/15/2016/03/windows%E4%B8%8B%E6%8F%90%E5%8D%87%E6%95%88%E7%8E%87%E5%BF%85%E5%A4%87%E8%BD%AF%E4%BB%B6-%E8%BD%AC/</loc>
+    <loc>https://gentlenerjack.github.io/2016/03/21/2016/03/Vim%E7%9A%84%E5%88%86%E5%B1%8F%E5%8A%9F%E8%83%BD/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/03/26/2016/03/%E5%B8%B8%E7%94%A8%E7%9A%84XHTML%E6%A0%87%E7%AD%BE%E6%95%B4%E7%90%86/</loc>
@@ -118,22 +109,28 @@
     <loc>https://gentlenerjack.github.io/2016/03/15/2016/03/%E8%BF%BD%E6%B1%82%E9%AB%98%E6%95%88%E5%B7%A5%E4%BD%9C%E4%B9%8B%E8%B7%AF/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/05/26/2016/05/mysql%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</loc>
+    <loc>https://gentlenerjack.github.io/2016/03/29/2016/03/sublimeText3%E9%85%8D%E7%BD%AE%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A2%84%E8%A7%88%E8%B7%AF%E5%BE%84localhost/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/05/28/2016/05/%E5%9C%A8sublime-text%E4%B8%AD%E8%AE%BE%E7%BD%AE%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A2%84%E8%A7%88/</loc>
+    <loc>https://gentlenerjack.github.io/2016/04/17/2016/04/73%E6%9D%A1%E6%97%A5%E5%B8%B8Linux-shell%E5%91%BD%E4%BB%A4%E6%B1%87%E6%80%BB/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/05/25/2016/05/mysql%E5%A4%8D%E4%B9%A0%E7%A7%98%E7%B1%8D/</loc>
+    <loc>https://gentlenerjack.github.io/2016/04/10/2016/04/webstorm%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/04/20/2016/04/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/03/2016/06/Hexo%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%88%B0github/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/05/25/2016/05/mysql%E5%A4%8D%E4%B9%A0%E7%A7%98%E7%B1%8D/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/06/26/2016/06/Ubuntu%E4%B8%8B%E5%AE%89%E8%A3%9D-Zsh-%E5%8F%8A-Oh-my-zsh/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/07/2016/07/Hexo%E4%B8%BB%E9%A2%98%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
+    <loc>https://gentlenerjack.github.io/2016/05/26/2016/05/mysql%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript-DOM%E4%BA%8B%E4%BB%B6/</loc>
@@ -142,19 +139,16 @@
     <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B8%8EUnicode%E7%BC%96%E7%A0%81/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B8%ADproperty%E5%92%8Cattribute%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <loc>https://gentlenerjack.github.io/2016/05/28/2016/05/%E5%9C%A8sublime-text%E4%B8%AD%E8%AE%BE%E7%BD%AE%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A2%84%E8%A7%88/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B9%8BIE,%E7%81%AB%E7%8B%90%E5%85%BC%E5%AE%B9%E4%BA%8B%E4%BB%B6%E5%AF%B9%E8%B1%A1/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B9%8B%E4%BA%8B%E4%BB%B6%E7%9A%84%E4%B8%AD%E6%96%AD%E4%BC%A0%E6%92%AD%E4%B8%8E%E8%A1%8C%E4%B8%BA%E9%98%BB%E6%AD%A2/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B9%8B%E5%87%BD%E6%95%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F&arguments%E8%AF%A6%E8%A7%A3/</loc>
+    <loc>https://gentlenerjack.github.io/2016/07/07/2016/07/Hexo%E4%B8%BB%E9%A2%98%E5%8A%9F%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B8%AD%E4%B8%89%E7%A7%8D%E7%BB%91%E5%AE%9A%E4%BA%8B%E4%BB%B6%E7%9A%84%E6%96%B9%E5%BC%8F%E4%B8%8E%E5%8E%BB%E9%99%A4%E7%BB%91%E5%AE%9A/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B9%8B%E5%87%BD%E6%95%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F&arguments%E8%AF%A6%E8%A7%A3/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B9%8B%E5%AE%9A%E6%97%B6%E5%99%A8/</loc>
@@ -163,16 +157,19 @@
     <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B9%8B%E6%8D%95%E6%8D%89%E6%A8%A1%E5%9E%8B%E4%B8%8E%E5%86%92%E6%B3%A1%E6%A8%A1%E5%9E%8B/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B9%8B%E4%BA%8B%E4%BB%B6%E7%9A%84%E4%B8%AD%E6%96%AD%E4%BC%A0%E6%92%AD%E4%B8%8E%E8%A1%8C%E4%B8%BA%E9%98%BB%E6%AD%A2/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B8%ADproperty%E5%92%8Cattribute%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B9%8BIE,%E7%81%AB%E7%8B%90%E5%85%BC%E5%AE%B9%E4%BA%8B%E4%BB%B6%E5%AF%B9%E8%B1%A1/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B9%8B%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%AD%E7%9A%84%E5%A4%9A%E6%80%81/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B9%8B%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%AD%E7%9A%84%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95-%E9%9D%99%E6%80%81%E5%B1%9E%E6%80%A7/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B9%8B%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%AD%E7%9A%84%E5%B0%81%E8%A3%85/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90%E5%92%8C%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%97%AD%E5%8C%85/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E5%AF%B9%E8%B1%A1/</loc>
@@ -181,16 +178,16 @@
     <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8BDOM%E6%93%8D%E4%BD%9C(%E4%B9%9D)/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E4%B9%8B%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%AD%E7%9A%84%E5%B0%81%E8%A3%85/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8BWindow%E5%B1%9E%E6%80%A7(%E5%85%AB)/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/26/2016/07/JavaScript%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%87%BD%E6%95%B0%E5%9F%BA%E7%A1%80(%E5%85%AD)/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/26/2016/07/JavaScript%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%8F%98%E9%87%8F(%E4%B8%80)/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/26/2016/07/JavaScript%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%96%B9%E6%B3%95(%E5%9B%9B)/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/07/26/2016/07/JavaScript%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%87%BD%E6%95%B0%E5%9F%BA%E7%A1%80(%E5%85%AD)/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E6%95%B0%E7%BB%84(%E4%B8%83)/</loc>
@@ -208,31 +205,25 @@
     <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/22/2016/07/Svn%E4%B8%8EGit%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
+    <loc>https://gentlenerjack.github.io/2016/07/26/2016/07/JavaScript%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E5%8F%98%E9%87%8F(%E4%B8%80)/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/08/2016/07/TortoiseSVN%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/26/2016/07/JavaScript%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E8%BF%90%E7%AE%97%E7%AC%A6(%E4%B8%89)/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/jQuery%E4%B8%8E%E5%8E%9F%E7%94%9FJS%E7%9A%84DOM%E6%93%8D%E4%BD%9C%E5%AF%B9%E6%AF%94/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/parsetInt-parsetFloat%E4%B8%8Eeval-isNaN%E7%94%A8%E6%B3%95/</loc>
+    <loc>https://gentlenerjack.github.io/2016/07/22/2016/07/Svn%E4%B8%8EGit%E7%9A%84%E5%8C%BA%E5%88%AB/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/07/2016/07/ubuntu%E4%B8%8B%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85Hexo%E7%AE%80%E5%8D%95%E5%81%9A%E6%B3%95/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/02/2016/07/%E4%B8%80%E9%94%AE%E6%9B%B4%E6%96%B0Hexo%E5%88%B0github%E5%92%8Ccoding/</loc>
+    <loc>https://gentlenerjack.github.io/2016/07/26/2016/07/JavaScript%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E4%B9%8B%E8%BF%90%E7%AE%97%E7%AC%A6(%E4%B8%89)/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/07/2016/07/ubuntu%E4%B8%8B%E5%A6%82%E4%BD%95%E7%94%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E8%BF%90%E8%A1%8Cdeb%E5%AE%89%E8%A3%85%E5%8C%85/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/07/10/2016/07/%E6%A2%B3%E7%90%86%E5%B8%B8%E7%94%A8%E7%9A%84%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</loc>
+    <loc>https://gentlenerjack.github.io/2016/07/07/2016/07/ubuntu%E4%B8%8B%E6%97%A0%E6%B3%95%E5%AE%89%E8%A3%85Hexo%E7%AE%80%E5%8D%95%E5%81%9A%E6%B3%95/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/08/08/2016/08/PS%E5%9F%BA%E6%9C%AC%E5%88%87%E5%9B%BE%E5%8F%8A%E5%BA%94%E7%94%A8/</loc>
@@ -241,31 +232,37 @@
     <loc>https://gentlenerjack.github.io/2016/08/07/2016/08/jQuery%E5%8A%A8%E7%94%BB%E5%9F%BA%E7%A1%80%EF%BC%88%E5%9B%9B%EF%BC%89/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/08/07/2016/08/jQuery%E5%9F%BA%E7%A1%80%E4%B9%8BAjax%EF%BC%88%E5%85%AD%EF%BC%89/</loc>
+    <loc>https://gentlenerjack.github.io/2016/07/10/2016/07/%E6%A2%B3%E7%90%86%E5%B8%B8%E7%94%A8%E7%9A%84%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/08/07/2016/08/jQuery%E5%9F%BA%E7%A1%80%E4%B9%8BEvent%EF%BC%88%E4%BA%94%EF%BC%89/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/08/07/2016/08/jQuery%E6%A6%82%E8%BF%B0%E5%8F%8A%E5%AD%A6%E4%B9%A0%E7%BA%B2%E8%A6%81%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/08/07/2016/08/jQuery%E5%9F%BA%E7%A1%80%E4%B9%8B%E6%8F%92%E4%BB%B6%EF%BC%88%E5%85%AD%EF%BC%89/</loc>
+    <loc>https://gentlenerjack.github.io/2016/08/07/2016/08/jQuery%E5%9F%BA%E7%A1%80%E4%B9%8BAjax%EF%BC%88%E5%85%AD%EF%BC%89/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/08/07/2016/08/jQuery%E6%93%8D%E4%BD%9CDOM%EF%BC%88%E4%B8%89%EF%BC%89/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/08/07/2016/08/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E4%BC%98%E5%8C%96%EF%BC%88%E4%BA%8C%EF%BC%89/</loc>
+    <loc>https://gentlenerjack.github.io/2016/08/07/2016/08/jQuery%E5%9F%BA%E7%A1%80%E4%B9%8B%E6%8F%92%E4%BB%B6%EF%BC%88%E5%85%AD%EF%BC%89/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/08/02/2016/08/javascript%20%E4%B8%8B%E5%B8%B8%E7%94%A8%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</loc>
+    <loc>https://gentlenerjack.github.io/2016/08/07/2016/08/jQuery%E6%A6%82%E8%BF%B0%E5%8F%8A%E5%AD%A6%E4%B9%A0%E7%BA%B2%E8%A6%81%EF%BC%88%E4%B8%80%EF%BC%89/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/08/29/2016/08/%E5%86%99%E7%BB%99%E5%A4%A7%E5%AE%B6%E7%9C%8B%E7%9A%84%E8%AE%BE%E8%AE%A1%E4%B9%A6%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/08/02/2016/08/javascript%20%E4%B8%8B%E5%B8%B8%E7%94%A8%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/08/13/2016/08/%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8Sublime%20Text%20Snippets%E6%8F%90%E9%AB%98%E7%BC%96%E7%A0%81%E9%80%9F%E5%BA%A6/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/08/07/2016/08/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E5%8F%8A%E4%BC%98%E5%8C%96%EF%BC%88%E4%BA%8C%EF%BC%89/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/parsetInt-parsetFloat%E4%B8%8Eeval-isNaN%E7%94%A8%E6%B3%95/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/08/13/2016/08/%E9%85%8D%E7%BD%AEsublime%E7%9A%84LiveReload%E4%B8%8Ewebstorm%E7%9A%84%E6%8F%92%E4%BB%B6%E5%AE%9E%E7%8E%B0%E5%AE%9E%E6%97%B6%E9%A2%84%E8%A7%88/</loc>
@@ -274,10 +271,10 @@
     <loc>https://gentlenerjack.github.io/2016/09/04/2016/09/CSS%20%E7%BB%84%E5%90%88%E9%80%89%E6%8B%A9%E7%AC%A6%E7%94%A8%E6%B3%95%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/09/07/2016/09/CSS%E4%B8%AD%E7%9A%84BFC/</loc>
+    <loc>https://gentlenerjack.github.io/2016/07/02/2016/07/%E4%B8%80%E9%94%AE%E6%9B%B4%E6%96%B0Hexo%E5%88%B0github%E5%92%8Ccoding/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/09/07/2016/09/hasLayout%E7%9F%A5%E5%A4%9A%E5%B0%91/</loc>
+    <loc>https://gentlenerjack.github.io/2016/09/07/2016/09/CSS%E4%B8%AD%E7%9A%84BFC/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/09/04/2016/09/%E5%AD%A6%E4%BC%9A%E4%BD%BF%E7%94%A8box-sizingCSS%E5%B8%83%E5%B1%80/</loc>
@@ -286,25 +283,25 @@
     <loc>https://gentlenerjack.github.io/2016/11/12/2016/11/CSS-center-methods/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/12/02/2016/12/Canvas-draw-clock/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/12/02/2016/12/Canvas-draw-sun/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/12/13/2016/12/arguments%E8%AF%A6%E8%A7%A3/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/11/12/2016/12/compare-js-php-func/</loc>
+    <loc>https://gentlenerjack.github.io/2016/12/02/2016/12/Canvas-draw-clock/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/12/13/2016/12/call-apply-bind/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/12/02/2016/12/draw-particle-animator-with-canvas/</loc>
+    <loc>https://gentlenerjack.github.io/2016/12/02/2016/12/Canvas-draw-sun/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/11/12/2016/12/compare-js-php-func/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/12/13/2016/12/js-arr/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/12/13/2016/12/js-inner-func/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/12/13/2016/12/js-inherit/</loc>
@@ -313,13 +310,13 @@
     <loc>https://gentlenerjack.github.io/2016/12/13/2016/12/js-event-listener/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/12/13/2016/12/js-inner-func/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/12/13/2016/12/js-oop-and-class/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/12/13/2016/12/js-oop/</loc>
+    <loc>https://gentlenerjack.github.io/2016/07/27/2016/07/JavaScript%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90%E5%92%8C%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%97%AD%E5%8C%85/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/12/02/2016/12/draw-particle-animator-with-canvas/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/12/13/2016/12/mvc-mvp-mvvm/</loc>
@@ -328,13 +325,19 @@
     <loc>https://gentlenerjack.github.io/2016/12/13/2016/12/js-prototype/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/12/13/2016/12/js-oop/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/09/07/2016/09/hasLayout%E7%9F%A5%E5%A4%9A%E5%B0%91/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/01/14/2017/01/jQuery-dom/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/01/10/2017/01/js-scope/</loc>
+    <loc>https://gentlenerjack.github.io/2017/01/14/2017/01/js-and-jquery-dom-compare/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/01/14/2017/01/js-and-jquery-dom-compare/</loc>
+    <loc>https://gentlenerjack.github.io/2017/01/10/2017/01/js-scope/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/01/14/2017/01/js-snippets-summary/</loc>
@@ -355,9 +358,6 @@
     <loc>https://gentlenerjack.github.io/2017/03/22/2017/03/closure-summary/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/05/09/2017/05/forever-pm2/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/05/23/2017/05/mobile-adaptation/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
@@ -367,22 +367,25 @@
     <loc>https://gentlenerjack.github.io/2017/08/20/2017/08/es6-note-record/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/05/08/2017/05/nginx/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/08/23/2017/08/mobile_meta_summary/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/09/12/2017/09/js-calc-str-byte/</loc>
+    <loc>https://gentlenerjack.github.io/2017/05/09/2017/05/forever-pm2/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/09/04/2017/09/js_post/</loc>
+    <loc>https://gentlenerjack.github.io/2017/05/08/2017/05/nginx/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/09/17/2017/09/set-map/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/10/28/2017/10/jq-naotu/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/09/12/2017/09/js-calc-str-byte/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/09/04/2017/09/js_post/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/10/24/2017/10/js-good-style/</loc>
@@ -394,25 +397,16 @@
     <loc>https://gentlenerjack.github.io/2017/10/21/2017/10/json-stringify/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/10/15/2017/10/learn-node-start/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/09/17/2017/10/map-reduce-filter/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/10/15/2017/10/node-env-debug/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/10/15/2017/10/learn-node-start/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/11/08/2017/11/axios/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/10/23/2017/10/restful-api/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/10/22/2017/10/unit-test-mocha-chai/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/11/04/2017/11/bootstrap-summary/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/11/07/2017/11/es-in-react/</loc>
@@ -421,16 +415,19 @@
     <loc>https://gentlenerjack.github.io/2017/11/04/2017/11/fiddler/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/11/05/2017/11/mobile-layout/</loc>
+    <loc>https://gentlenerjack.github.io/2017/10/23/2017/10/restful-api/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/react-study-build-env/</loc>
+    <loc>https://gentlenerjack.github.io/2017/11/08/2017/11/axios/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/11/05/2017/11/mobile-layout/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/11/07/2017/11/js-some-filter-reduce/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/react-study-jsx-dom/</loc>
+    <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/react-study-build-env/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/react-study-component-corp-and-uncontrol/</loc>
@@ -439,7 +436,13 @@
     <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/react-study-event/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/react-study-jsx-dom/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/react-study-middleware/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/11/04/2017/11/bootstrap-summary/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/redux-study-action-store-reducer/</loc>
@@ -448,16 +451,16 @@
     <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/redux-study-combine-react-and-redux/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/01/27/2018/01/editconfig/</loc>
+    <loc>https://gentlenerjack.github.io/2018/01/12/2018/01/echart/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/01/12/2018/01/echart/</loc>
+    <loc>https://gentlenerjack.github.io/2018/01/27/2018/01/editconfig/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/01/27/2018/01/mobile-device-size/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/05/20/Git%E4%BF%AE%E6%94%B9%E6%9C%80%E5%90%8E%E4%B8%80%E6%AC%A1%E6%8F%90%E4%BA%A4%E7%9A%84%E5%86%85%E5%AE%B9%E7%9A%84%E5%85%B7%E4%BD%93%E6%AD%A5%E9%AA%A4/</loc>
+    <loc>https://gentlenerjack.github.io/2017/05/20/Hexo%E5%8D%9A%E5%AE%A2%E4%BB%8E%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E7%A7%BB%E5%8A%A8%E5%88%B0%E5%85%B6%E4%BB%96%E7%94%B5%E8%84%91/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/02/25/2018/02/linux-frequently-use-command/</loc>
@@ -475,16 +478,19 @@
     <loc>https://gentlenerjack.github.io/2018/02/02/2018/02/vsc-config/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/03/29/2018/03/emoji%E8%A1%A8%E6%83%85%E5%AD%98%E5%82%A8%E5%90%8E%E5%8F%B0%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
+    <loc>https://gentlenerjack.github.io/2018/09/22/2018/03/Module-not-found-Error-Cannot-resolve-module-fs-in/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/09/22/2018/03/Module-not-found-Error-Cannot-resolve-module-fs-in/</loc>
+    <loc>https://gentlenerjack.github.io/2018/03/29/2018/03/emoji%E8%A1%A8%E6%83%85%E5%AD%98%E5%82%A8%E5%90%8E%E5%8F%B0%E6%8A%A5%E9%94%99%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/08/28/2018/03/vue-$vm-method-props/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/08/28/2018/03/vue-animation-transition/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2018/03/22/2018/03/lazyload%E9%A1%B5%E9%9D%A2%E4%B8%AD%E9%97%B4%E6%9C%89%E6%BB%9A%E5%8A%A8%E6%9D%A1%EF%BC%8C%E6%BB%91%E5%8A%A8%E9%BC%A0%E6%A0%87%E6%97%A0%E6%B3%95%E8%A7%A6%E5%8F%91%E5%9B%BE%E7%89%87%E9%A2%84%E5%8A%A0%E8%BD%BD/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/08/26/2018/03/vue-base-directive/</loc>
@@ -496,16 +502,13 @@
     <loc>https://gentlenerjack.github.io/2018/08/26/2018/03/vue-data-bind/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/03/22/2018/03/lazyload%E9%A1%B5%E9%9D%A2%E4%B8%AD%E9%97%B4%E6%9C%89%E6%BB%9A%E5%8A%A8%E6%9D%A1%EF%BC%8C%E6%BB%91%E5%8A%A8%E9%BC%A0%E6%A0%87%E6%97%A0%E6%B3%95%E8%A7%A6%E5%8F%91%E5%9B%BE%E7%89%87%E9%A2%84%E5%8A%A0%E8%BD%BD/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/08/27/2018/03/vue-form/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/08/27/2018/03/vue-filters/</loc>
+    <loc>https://gentlenerjack.github.io/2018/08/27/2018/03/vue-event/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/08/27/2018/03/vue-event/</loc>
+    <loc>https://gentlenerjack.github.io/2018/08/27/2018/03/vue-filters/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/04/11/2018/04/flex%E6%B0%B4%E5%B9%B3%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD/</loc>
@@ -520,10 +523,10 @@
     <loc>https://gentlenerjack.github.io/2018/04/24/2018/04/%E8%AF%A6%E8%A7%A3angularJS%E5%8A%A8%E6%80%81%E7%94%9F%E6%88%90%E7%9A%84%E9%A1%B5%E9%9D%A2%E4%B8%ADng-click%E6%97%A0%E6%95%88%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/06/17/2018/06/react-%E5%8A%A8%E6%80%81%E6%B7%BB%E5%8A%A0class/</loc>
+    <loc>https://gentlenerjack.github.io/2018/05/14/2018/05/%E3%80%90ElementUI%E3%80%91%E6%97%A5%E6%9C%9F%E9%80%89%E6%8B%A9%E5%99%A8%E6%97%B6%E9%97%B4%E9%80%89%E6%8B%A9%E8%8C%83%E5%9B%B4%E9%99%90%E5%88%B6%E6%8F%92%E5%85%A5%E3%80%81%E6%9B%BF%E6%8D%A2/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/05/14/2018/05/%E3%80%90ElementUI%E3%80%91%E6%97%A5%E6%9C%9F%E9%80%89%E6%8B%A9%E5%99%A8%E6%97%B6%E9%97%B4%E9%80%89%E6%8B%A9%E8%8C%83%E5%9B%B4%E9%99%90%E5%88%B6%E6%8F%92%E5%85%A5%E3%80%81%E6%9B%BF%E6%8D%A2/</loc>
+    <loc>https://gentlenerjack.github.io/2018/06/25/2018/06/%E4%BF%AE%E6%94%B9element-ui-%E6%BA%90%E7%A0%81-npm-run-dist-%E6%8A%A5%E9%94%99%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/07/17/2018/07/React-%E5%A6%82%E4%BD%95%E7%9B%91%E5%90%AC%E8%B7%AF%E7%94%B1%E5%8F%98%E5%8C%96%E9%87%8D%E6%96%B0%E6%B8%B2%E6%9F%93%E6%95%B0%E6%8D%AE/</loc>
@@ -535,19 +538,13 @@
     <loc>https://gentlenerjack.github.io/2018/07/23/2018/07/react-context/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/07/23/2018/07/react-hoc/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/07/23/2018/07/react-redux/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/06/25/2018/06/%E4%BF%AE%E6%94%B9element-ui-%E6%BA%90%E7%A0%81-npm-run-dist-%E6%8A%A5%E9%94%99%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/07/18/2018/07/vue%E5%AD%90%E7%BB%84%E4%BB%B6%E6%94%B9%E5%8F%98%E7%88%B6%E7%BB%84%E4%BB%B6%E6%95%B0%E6%8D%AE%E7%9A%84%E6%96%B9%E6%B3%95-emit%E6%96%B9%E6%B3%95/</loc>
+    <loc>https://gentlenerjack.github.io/2018/06/17/2018/06/react-%E5%8A%A8%E6%80%81%E6%B7%BB%E5%8A%A0class/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/07/17/2018/07/react-router-v4%E4%B8%AD%EF%BC%8C%E4%B8%8D%E6%8F%90%E4%BE%9BbrowserHistory%E7%AD%89%E7%9A%84%E5%AF%BC%E5%87%BA-%E6%80%8E%E4%B9%88%E8%A7%A3%E5%86%B3/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2018/07/23/2018/07/react-hoc/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/07/11/2018/07/vue%E6%95%B0%E7%BB%84%E4%B8%AD%E6%95%B0%E6%8D%AE%E5%8F%98%E5%8C%96%E4%BD%86%E6%98%AF%E8%A7%86%E5%9B%BE%E6%B2%A1%E6%9C%89%E6%9B%B4%E6%96%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
@@ -556,10 +553,13 @@
     <loc>https://gentlenerjack.github.io/2018/07/16/2018/07/%E4%BD%BF%E7%94%A8slice-%E7%AE%80%E5%8D%95%E5%B0%81%E8%A3%85%E5%AE%9E%E7%8E%B0%E5%B0%86%E6%95%B0%E7%BB%84%E5%88%86%E5%89%B2%E4%B8%BA%E5%87%A0%E4%B8%AA%E7%AD%89%E9%95%BF%E5%BA%A6%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/07/19/2018/07/%E7%BB%84-Array-%E6%93%8D%E4%BD%9C%E4%B9%8Bsplice-%E5%88%A0%E9%99%A4%E3%80%81%E6%8F%92%E5%85%A5%E3%80%81%E6%9B%BF%E6%8D%A2/</loc>
+    <loc>https://gentlenerjack.github.io/2018/07/18/2018/07/vue%E5%AD%90%E7%BB%84%E4%BB%B6%E6%94%B9%E5%8F%98%E7%88%B6%E7%BB%84%E4%BB%B6%E6%95%B0%E6%8D%AE%E7%9A%84%E6%96%B9%E6%B3%95-emit%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/08/13/2018/08/immutable-review/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2018/07/23/2018/07/react-redux/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/08/16/2018/08/javascript%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE%E5%92%8C%E6%9A%82%E5%81%9Cstream%E6%B5%81/</loc>
@@ -568,25 +568,25 @@
     <loc>https://gentlenerjack.github.io/2018/08/12/2018/08/js-map-reduce-find-filter/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2018/07/19/2018/07/%E7%BB%84-Array-%E6%93%8D%E4%BD%9C%E4%B9%8Bsplice-%E5%88%A0%E9%99%A4%E3%80%81%E6%8F%92%E5%85%A5%E3%80%81%E6%9B%BF%E6%8D%A2/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/08/15/2018/08/vue%E8%B7%AF%E7%94%B1%E4%BC%A0%E5%8F%82%E7%9A%84%E4%B8%89%E7%A7%8D%E5%9F%BA%E6%9C%AC%E6%96%B9%E5%BC%8F/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/08/11/2018/08/wx-redux/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/08/18/2018/08/%E6%80%8E%E4%B9%88%E6%8A%8A%E6%95%B0%E7%BB%84%E5%80%92%E7%BD%AE%EF%BC%8C%E5%8F%88%E4%B8%8D%E5%BD%B1%E5%93%8D%E5%8E%9F%E6%9D%A5%E6%95%B0%E7%BB%84%EF%BC%8Creverse%E4%B8%8D%E8%A1%8C/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/08/30/2018/08/%E5%90%88%E5%B9%B6%E6%95%B0%E7%BB%84%E7%9A%84%E7%9B%B8%E5%90%8C%E7%9A%84key%E5%80%BC%EF%BC%8C%E5%B9%B6%E4%B8%94%E8%AE%A1%E7%AE%97%E7%9B%B8%E5%90%8Ckey%E5%80%BC%E7%9A%84%E4%B8%AA%E6%95%B0/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/09/07/2018/09/NodeJS%E8%BF%9E%E6%8E%A5MySQL%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%20Error%20Connection%20lost%20The%20server%20closed%20the%20connection/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/09/10/2018/09/ES6-%E5%9F%BA%E7%A1%80-%E3%80%90%E5%A5%BD%E6%96%87%E5%88%86%E4%BA%AB%E3%80%91/</loc>
+    <loc>https://gentlenerjack.github.io/2018/08/18/2018/08/%E6%80%8E%E4%B9%88%E6%8A%8A%E6%95%B0%E7%BB%84%E5%80%92%E7%BD%AE%EF%BC%8C%E5%8F%88%E4%B8%8D%E5%BD%B1%E5%93%8D%E5%8E%9F%E6%9D%A5%E6%95%B0%E7%BB%84%EF%BC%8Creverse%E4%B8%8D%E8%A1%8C/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/08/30/2018/08/%E9%94%99%E8%AF%AF%E7%A0%81%EF%BC%9Aevents-js-183-throw-er-Unhandled-error-event%E2%80%94%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2018/09/10/2018/09/ES6-%E5%9F%BA%E7%A1%80-%E3%80%90%E5%A5%BD%E6%96%87%E5%88%86%E4%BA%AB%E3%80%91/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/09/21/2018/09/JS%20%E6%95%B0%E7%BB%84%E5%85%8B%E9%9A%86%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93/</loc>
@@ -598,6 +598,9 @@
     <loc>https://gentlenerjack.github.io/2018/09/17/2018/09/VsCode%E8%AF%BB%E5%8F%96%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E7%9A%84Eslint%E8%A7%84%E5%88%99-%E4%BF%9D%E5%AD%98%E6%97%B6%E8%87%AA%E5%8A%A8%E4%BF%AE%E5%A4%8D%E6%A0%BC%E5%BC%8F%E9%94%99%E8%AF%AF/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2018/09/07/2018/09/NodeJS%E8%BF%9E%E6%8E%A5MySQL%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%20Error%20Connection%20lost%20The%20server%20closed%20the%20connection/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/09/06/2018/09/javascript%E6%88%AA%E5%8F%96%E6%96%87%E4%BB%B6%E5%90%8D%E7%9A%84%E5%90%8E%E7%BC%80/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
@@ -607,10 +610,7 @@
     <loc>https://gentlenerjack.github.io/2018/09/03/2018/09/wx-taro/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/09/11/2018/09/%E5%89%8D%E7%AB%AF%E5%91%A8%E5%88%8A-2018%E5%B9%B409%E6%9C%88%E7%AC%AC2%E5%91%A8/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/09/07/2018/09/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BAgithub-io%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://gentlenerjack.github.io/2018/09/21/2018/09/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83-used-by-frank/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/09/21/2018/09/%E5%89%8D%E7%AB%AF%E5%91%A8%E5%88%8A-2018%E5%B9%B409%E6%9C%88%E7%AC%AC3%E5%91%A8/</loc>
@@ -619,7 +619,7 @@
     <loc>https://gentlenerjack.github.io/2018/09/03/2018/09/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%99%90%E5%88%B6input%E6%A1%86%E5%8F%AA%E8%83%BD%E8%BE%93%E5%85%A5%E6%95%B0%E5%AD%97/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/09/21/2018/09/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83-used-by-frank/</loc>
+    <loc>https://gentlenerjack.github.io/2018/09/11/2018/09/%E5%89%8D%E7%AB%AF%E5%91%A8%E5%88%8A-2018%E5%B9%B409%E6%9C%88%E7%AC%AC2%E5%91%A8/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/10/26/2018/10/ajax%E5%92%8Cfetch%E3%80%81axios%E7%9A%84%E4%BC%98%E7%BC%BA%E7%82%B9%E4%BB%A5%E5%8F%8A%E6%AF%94%E8%BE%83/</loc>
@@ -628,7 +628,7 @@
     <loc>https://gentlenerjack.github.io/2018/10/21/2018/10/fe-interview-component/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/10/21/2018/10/fe-interview-mvvm/</loc>
+    <loc>https://gentlenerjack.github.io/2018/09/07/2018/09/%E4%BD%BF%E7%94%A8hexo%E6%90%AD%E5%BB%BAgithub-io%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/10/21/2018/10/fe-interview-hybrid/</loc>
@@ -640,22 +640,22 @@
     <loc>https://gentlenerjack.github.io/2018/10/20/2018/10/jquery-deferred/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/10/26/2018/10/js%E6%B7%B1%E5%BA%A6%E6%8B%B7%E8%B4%9D%E8%A7%A3%E5%86%B3%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E9%97%AE%E9%A2%98-%E5%8C%85%E5%90%ABes6%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/10/17/2018/10/vuex%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/09/24/2016/07/javascript%E7%AC%94%E8%AE%B0%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93%E7%AF%87/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/10/02/2018/10/%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E8%B0%83%E8%AF%95%E7%BD%91%E9%A1%B5%E6%8E%88%E6%9D%83-%E7%A1%AE%E8%AE%A4%E6%8C%89%E9%92%AE%E7%82%B9%E5%87%BB%E6%97%A0%E4%BB%BB%E4%BD%95%E5%8F%8D%E5%BA%94/</loc>
+    <loc>https://gentlenerjack.github.io/2018/10/21/2018/10/fe-interview-mvvm/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/10/22/2018/10/%E5%85%B3%E4%BA%8E%E6%95%B0%E7%BB%84%E4%B8%ADforEach-%E3%80%81map-%E3%80%81filter-%E3%80%81reduce-%E3%80%81some-%E3%80%81every-%E7%9A%84%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2018/10/17/2018/10/vuex%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/04/26/npm%E7%BD%91%E9%80%9F%E6%85%A2%E7%94%A8%E6%B7%98%E5%AE%9Dcnpm/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/10/04/2018/10/%E8%93%9D%E7%81%AF%E5%AF%BC%E8%87%B4%E5%85%B3%E9%97%AD%E8%93%9D%E7%81%AF%E5%90%8E%E7%94%B5%E8%84%91%E4%B8%80%E7%9B%B4%E5%BC%82%E5%B8%B8%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2018/10/02/2018/10/%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E8%B0%83%E8%AF%95%E7%BD%91%E9%A1%B5%E6%8E%88%E6%9D%83-%E7%A1%AE%E8%AE%A4%E6%8C%89%E9%92%AE%E7%82%B9%E5%87%BB%E6%97%A0%E4%BB%BB%E4%BD%95%E5%8F%8D%E5%BA%94/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/10/22/2018/10/%E8%BE%93%E5%85%A5%E6%A1%86input%E7%B1%BB%E5%9E%8B%E4%B8%BAnumber%E6%97%B6%EF%BC%8C%E5%8E%BB%E6%8E%89%E4%B8%8A%E4%B8%8B%E7%AE%AD%E5%A4%B4%E6%96%B9%E5%BC%8F/</loc>
@@ -664,22 +664,25 @@
     <loc>https://gentlenerjack.github.io/2018/10/22/2018/10/%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98%E6%90%BA%E5%B8%A6cookie%E5%8A%A0%E5%85%A5withCredentials%E6%8A%A5%E9%94%99%E5%8E%9F%E5%9B%A0%E4%BB%A5%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/03/14/2016/03/Hexo-GitHub%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/04/17/2016/04/%E5%9F%BA%E4%BA%8E%E9%B8%9F%E5%93%A5linux%E7%A7%81%E6%88%BF%E8%8F%9C%E6%95%B4%E7%90%86%E7%9A%84%E5%B8%B8%E7%94%A8%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
+    <loc>https://gentlenerjack.github.io/2018/10/26/2018/10/js%E6%B7%B1%E5%BA%A6%E6%8B%B7%E8%B4%9D%E8%A7%A3%E5%86%B3%E5%8F%8C%E5%90%91%E7%BB%91%E5%AE%9A%E9%97%AE%E9%A2%98-%E5%8C%85%E5%90%ABes6%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/03/21/2016/03/Vim-%E7%AE%80%E6%98%8E-%E7%BB%83%E7%BA%A7%E6%94%BB%E7%95%A5/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/03/14/2016/03/%E7%BC%96%E7%A0%81%E7%A5%9E%E5%99%A8Atom%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/05/20/2016/05/HTML5-CSS3-%E6%9C%80%E9%85%B7%E7%9A%84-loading-%E6%95%88%E6%9E%9C%E6%94%B6%E9%9B%86/</loc>
+    <loc>https://gentlenerjack.github.io/2016/03/14/2016/03/Hexo-GitHub%E6%90%AD%E5%BB%BA%E5%85%8D%E8%B4%B9%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/03/19/2016/03/Vim%E4%BD%BF%E7%94%A8%E6%91%98%E8%A6%81%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/03/14/2016/03/%E7%BC%96%E7%A0%81%E7%A5%9E%E5%99%A8Atom%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/04/17/2016/04/%E5%9F%BA%E4%BA%8E%E9%B8%9F%E5%93%A5linux%E7%A7%81%E6%88%BF%E8%8F%9C%E6%95%B4%E7%90%86%E7%9A%84%E5%B8%B8%E7%94%A8%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/05/20/2016/05/HTML5-CSS3-%E6%9C%80%E9%85%B7%E7%9A%84-loading-%E6%95%88%E6%9E%9C%E6%94%B6%E9%9B%86/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/19/2016/07/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3/</loc>
@@ -691,25 +694,28 @@
     <loc>https://gentlenerjack.github.io/2016/11/26/2016/11/h5-api/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/01/21/2017/01/gulp-works/</loc>
+    <loc>https://gentlenerjack.github.io/2018/08/31/2017/01/acq-mobx/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/12/30/2016/12/video-audio/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/08/31/2017/01/acq-mobx/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/02/07/2017/02/ie-compatibility-summary/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/04/14/2017/04/es6-coding-style/</loc>
+    <loc>https://gentlenerjack.github.io/2017/01/21/2017/01/gulp-works/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/08/27/2017/08/js_cb_promise_generator_async/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/04/14/2017/04/es6-coding-style/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/10/21/2017/10/es6-review/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2017/10/24/2017/10/js-read-note/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/09/17/2017/09/cross-domain/</loc>
@@ -718,13 +724,13 @@
     <loc>https://gentlenerjack.github.io/2017/10/15/2017/10/node-base-api/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/10/24/2017/10/js-read-note/</loc>
+    <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/react-study-life-props-state/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/11/08/2017/11/react-styled-components/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/react-study-life-props-state/</loc>
+    <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/redux-study-async-operation/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/03/14/2018/01/Emmet%EF%BC%9AHTML-CSS%E4%BB%A3%E7%A0%81%E5%BF%AB%E9%80%9F%E7%BC%96%E5%86%99%E7%A5%9E%E5%99%A8/</loc>
@@ -733,19 +739,16 @@
     <loc>https://gentlenerjack.github.io/2018/01/27/2018/01/eslint-config/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/01/12/2018/01/fed-performance-optimization/</loc>
+    <loc>https://gentlenerjack.github.io/2018/02/23/2018/02/js-string-arr-object-api/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/redux-study-async-operation/</loc>
+    <loc>https://gentlenerjack.github.io/2018/01/12/2018/01/fed-performance-optimization/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/02/04/2018/02/immutable-api/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/02/23/2018/02/js-string-arr-object-api/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/08/26/2018/03/vue-lifecircle/</loc>
+    <loc>https://gentlenerjack.github.io/2018/08/28/2018/03/vue-computed-watch/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/02/25/2018/03/vue-mvvm/</loc>
@@ -754,19 +757,19 @@
     <loc>https://gentlenerjack.github.io/2018/08/28/2018/03/vue-project-dev-question/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
+    <loc>https://gentlenerjack.github.io/2018/08/26/2018/03/vue-lifecircle/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/08/28/2018/03/vue-router/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/08/29/2018/08/vue-vuex/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/08/28/2018/03/vue-computed-watch/</loc>
+    <loc>https://gentlenerjack.github.io/2018/08/13/2018/08/wx-login/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/08/12/2018/08/wx-component/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/08/13/2018/08/wx-login/</loc>
+    <loc>https://gentlenerjack.github.io/2018/08/29/2018/08/vue-vuex/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/09/17/2018/09/graphviz/</loc>
@@ -847,16 +850,16 @@
     <loc>https://gentlenerjack.github.io/2017/11/20/2017/11/react-study-router-4-xx/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/12/24/2017/12/js-api/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2017/11/19/2017/11/redux-study-source-code-analysis/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/02/26/2018/02/http-1/</loc>
+    <loc>https://gentlenerjack.github.io/2017/12/24/2017/12/js-api/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/01/28/2018/01/js-perfect-rules/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2018/02/26/2018/02/http-1/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/07/19/2016/07/Javascript%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95%E5%87%BD%E6%95%B0%E6%94%B6%E9%9B%86/</loc>
@@ -868,10 +871,10 @@
     <loc>https://gentlenerjack.github.io/2018/09/17/2018/09/ant-design-pro/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2017/11/20/2017/11/react-study-Immutable/</loc>
+    <loc>https://gentlenerjack.github.io/2018/02/25/2018/02/nginx-study/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/02/25/2018/02/nginx-study/</loc>
+    <loc>https://gentlenerjack.github.io/2017/11/20/2017/11/react-study-Immutable/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/09/07/2018/09/%E5%B0%8F%E9%82%B5%E6%95%99%E4%BD%A0%E7%8E%A9%E8%BD%ACes6/</loc>
@@ -880,13 +883,16 @@
     <loc>https://gentlenerjack.github.io/2017/11/07/2017/11/react-summary/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/08/21/2018/08/quick-app-summary/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/09/05/2018/09/dva/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/09/30/2018/09/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E6%9C%80%E5%85%A8%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2018/08/21/2018/08/quick-app-summary/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
+  </url>  <url>
+    <loc>https://gentlenerjack.github.io/2016/10/20/2016/10/review-jQuery/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
     <loc>https://gentlenerjack.github.io/2016/09/06/2016/09/DIV+CSS%E7%B3%BB%E7%BB%9F%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E5%9B%9E%E9%A1%BE/</loc>
@@ -901,13 +907,10 @@
     <loc>https://gentlenerjack.github.io/2017/03/12/2017/03/front-end-interview-summary/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2016/10/20/2016/10/review-jQuery/</loc>
-    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
-  </url>  <url>
     <loc>https://gentlenerjack.github.io/2018/09/04/2018/09/webpack-custom-work-flow/</loc>
     <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>  <url>
-    <loc>https://gentlenerjack.github.io/2018/10/27/2018/10/vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%92%8Creact%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%AF%B9%E6%AF%94/</loc>
-    <lastmod>2018-10-30T02:55:19.175Z</lastmod>
+    <loc>https://gentlenerjack.github.io/2016/09/24/2016/07/javascript%E7%AC%94%E8%AE%B0%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93%E7%AF%87/</loc>
+    <lastmod>2018-10-30T15:32:06.000Z</lastmod>
   </url>
 </urlset>
