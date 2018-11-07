@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 [gentlenerJack.github.io](https://gentlenerJack.github.io/)
+=======
+[gentlenerJack.github.io](https://gentlenerJack.github.io)
+>>>>>>> 63fa43c57472121febc6e1c9c44dbaf33f9cee3d
 jack的前端养成记(hexo博客)
 
 ### hexo 新建一篇文章给它添加分类和标签:
@@ -21,12 +25,20 @@ description: #你對本頁的描述 可以省略
 
 ### 发布
 ```
+<<<<<<< HEAD
 hexo clean && hexo g && hexo deploy
 
+=======
+hexo clean && hexo g && hexo d
+>>>>>>> 63fa43c57472121febc6e1c9c44dbaf33f9cee3d
 ```
 
 ### 创建新页面
 
 ```
 hexo new page "about"
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 63fa43c57472121febc6e1c9c44dbaf33f9cee3d
