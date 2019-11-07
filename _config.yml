@@ -5,15 +5,15 @@
 # Site
 title: 勿忘初心
 subtitle: 既然已匆匆,不如早怀念
-description: 这是jack的博客的第一次尝试
+description: 记录日常工作积累的知识点，日常生活的随笔
 keywords: jack,bolg
 author: Jack Wang
 language: zh-CN
-timezone:
+timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.asda.com/
+url: http://www.gentlenr.com/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -36,7 +36,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -75,13 +75,20 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/  
 theme: maupassant
+# theme: fexo-master
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/gentlenerJack/blog.git
-  branch: master
+  type: rsync
+  host: 182.92.3.224
+  user: root
+  pass: 15110437393wang!
+  root: /home/blog
+  port: 22
+  delete: true  #删除远程主机上的旧文件
+  verbose: true #显示调试信息
+  ignore_errors: false  #忽略错误	
 
 # Douban  
 douban:
